@@ -44,9 +44,13 @@ const getVenues = () =>
   return venues;
 }
 
+<<<<<<< HEAD
 
 
 const categories  = [
+=======
+const categories = [
+>>>>>>> 92c52bc5cf109c48755743f1eb40f8f75f0c308e
  {
    typ: "bezobalovyObchod",
    name: "Bezobalové obchody",
@@ -91,7 +95,16 @@ const categories  = [
 
 const getCategories = () =>
 {
+<<<<<<< HEAD
 return categories; 
 }
 
 export {getVenues, getCategories}
+=======
+return categories
+}
+
+
+export {getVenues, getCategories};
+ 
+>>>>>>> 92c52bc5cf109c48755743f1eb40f8f75f0c308e
