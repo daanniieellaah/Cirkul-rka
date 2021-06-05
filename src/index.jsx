@@ -7,10 +7,14 @@ import {getVenues, getCategories} from './mocks';
 const venuesList = getVenues();
 const categories = getCategories();
 
-//console.log(categories);
 const App = () => {
 
   const [venue, setVenue] = useState (venuesList [0]);
+  const categoriesKeyes = categories.map((item) => {
+    return item.typ
+  })
+  const [selectedCategories, setSelectedCategories] = useState(categoriesKeyes)
+  
   
 
   return (
@@ -18,7 +22,7 @@ const App = () => {
     <>
     <VenueDetail data={venue}/>
     <VenueList venues={venuesList} handleVenue={setVenue}/>
-    <Filtr categories={categories}/>
+    <Filtr categories={categories} selectedCategories={selectedCategories}/>
     </>  
      </div>
 
