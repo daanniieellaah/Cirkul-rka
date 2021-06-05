@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import {VenueDetail, VenueList, Filtr} from './components';
+import {VenueDetail, VenueList, Filtr, Mapa} from './components';
 import {getVenues, getCategories} from './mocks';
+
 
 const venuesList = getVenues();
 const categories = getCategories();
@@ -22,8 +23,9 @@ const App = () => {
     <>
     <VenueDetail data={venue}/>
     <VenueList venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
-    <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/>
-    </>  
+    <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
+    <Mapa/>
+    </>
      </div>
 
   )
