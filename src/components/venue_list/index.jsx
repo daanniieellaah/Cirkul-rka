@@ -8,6 +8,11 @@ const VenueList = (props) => {
         props.handleVenue(props.venues[key])
     };
 
+    const places = props.venues.filter((item)=>{
+        if ( props.venues.kategorie.includes(item)
+        return
+    })
+
     return (
         
     <div className="list">

@@ -10,6 +10,7 @@ const venues = [
     },
     latitude: 48.8949956,
     longitude: 18.0407183,
+    kategorie: "bezobalovyObchod"
   },
 
   { id: 2,
@@ -23,6 +24,8 @@ const venues = [
     },
     latitude: 48.8949956,
     longitude: 18.0407183,
+    kategorie: "seconsHands"
+
   },
 
   { id: 3,
@@ -36,6 +39,8 @@ const venues = [
     },
     latitude: 48.8949956,
     longitude: 18.0407183,
+    kategorie: "pujcovny"
+
   }
 ];
 
