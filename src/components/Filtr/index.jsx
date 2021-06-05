@@ -1,8 +1,6 @@
 import React from 'react';
 import {ItemCategories} from "..";
-
 const Filtr = (props) => {
-
     return (    
         <div>
             <h1> Kategorie</h1>    
@@ -12,5 +10,4 @@ const Filtr = (props) => {
         </div>
         )
     };
-
 export default Filtr;

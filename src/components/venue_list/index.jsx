@@ -2,7 +2,7 @@ import React from 'react';
 import {Address} from '..'
 
 
-cconst VenueList = (props) => {
+const VenueList = (props) => {
     const handleClick = (key) => {
         props.handleVenue(props.venues[key])
     };

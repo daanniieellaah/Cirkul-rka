@@ -24,7 +24,7 @@ const venues = [
     },
     latitude: 48.8949956,
     longitude: 18.0407183,
-    kategorie: "seconsHands"
+    kategorie: "secondHands"
 
   },
 
