@@ -4,4 +4,4 @@ import Address from './address';
 import Filtr from "./Filtr";
 import ItemCategories from "./ItemCategories";
 
-export  {VenueDetail, VenueList, Address, Filtr, Item};
+export  {VenueDetail, VenueList, Address, Filtr, ItemCategories};

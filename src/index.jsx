@@ -22,7 +22,7 @@ const App = () => {
     <>
     <VenueDetail data={venue}/>
     <VenueList venues={venuesList} handleVenue={setVenue}/>
-    <Filtr categories={categories} selectedCategories={selectedCategories}/>
+    <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/>
     </>  
      </div>
 
