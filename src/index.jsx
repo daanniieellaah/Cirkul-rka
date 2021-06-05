@@ -4,17 +4,15 @@ import './style.css';
 
 const App = () => (
   <div className="container">
-    <header>
-      <div className="logo"></div>
-      <h1>Webová aplikace</h1>
-    </header>
-    <main>
-      <p>Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>.</p>
-    </main>
-    <footer>
-      <p>Czechitas, Digitální akademie: Web</p>
-    </footer>
-  </div>
+      <img src="https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+">
+
+      </img>
+      <h2>Blaaa</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia, eius dolores temporibus sunt minima accusamus voluptatem fugit ab aliquid, tenetur eaque facilis, aperiam repudiandae omnis magni ullam blanditiis nisi!</p>
+      <button>link</button>
+      <button>web</button>
+
+     </div>
 );
 
 render(<App />, document.querySelector('#app'));
