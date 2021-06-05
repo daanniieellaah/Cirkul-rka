@@ -44,7 +44,7 @@ const getVenues = () =>
   return venues;
 }
 
-const categories  = [
+const categories = [
  {
    typ: "bezobalovyObchod",
    name: "Bezobalové obchody"
@@ -85,12 +85,13 @@ const categories  = [
   name: "Ostatní"
 }
 
-]
+];
 
-getCategories = () =>
+const getCategories = () =>
 {
-return categories 
+return categories
 }
 
 
-export {getVenues, getCategories}
+export {getVenues, getCategories};
+ 

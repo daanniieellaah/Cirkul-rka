@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import {VenueDetail, VenueList} from './components';
-import {getVenues} from './mocks';
+import {getVenues, getCategories} from './mocks';
 
 const venuesList = getVenues();
 
@@ -10,6 +10,7 @@ const venuesList = getVenues();
 const App = () => {
 
   const [venue, setVenue] = useState (venuesList [0]);
+  
 
  
 
@@ -20,6 +21,7 @@ const App = () => {
     <>
     <VenueDetail data={venue}/>
     <VenueList venues={venuesList} handleVenue={setVenue}/>
+    
 
     </>  
       
