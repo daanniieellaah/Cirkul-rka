@@ -5,11 +5,12 @@ import {VenueDetail, VenueList} from './components';
 import {getVenues} from './mocks';
 
 const venuesList = getVenues();
+const venue = venuesList[0]
 
 const App = () => (
   <div className="container">
     <>
-    <VenueDetail/>
+    <VenueDetail data={venue}/>
     <VenueList venues={venuesList}/>
 
     </>  

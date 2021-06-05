@@ -1,19 +1,23 @@
 import React from 'react';
 //import './style.css';
 
-const VenueDetail = () => {
 
+const VenueDetail = (props) => {
+
+    const data = props.data
+
+    
     return (
         
   <div className="container">
-    <img src="https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+">
+    <img src={data.image_url}>
     </img>
 
     <h2>
-          Blaaa
+     {data.nazev}
     </h2>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia, eius dolores temporibus sunt minima accusamus voluptatem fugit ab aliquid, tenetur eaque facilis, aperiam repudiandae omnis magni ullam blanditiis nisi!
+       {data.popis}
     </p>
     <button>
         link
