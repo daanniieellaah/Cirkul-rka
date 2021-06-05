@@ -1,8 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
-import './style.css';
+//import './style.css';
 
-const Detail = () => {
+const VenueDetail = () => {
 
     return (
         
@@ -27,3 +26,5 @@ const Detail = () => {
     </div>
     )  
 };
+
+export default VenueDetail;
