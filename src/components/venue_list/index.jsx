@@ -6,16 +6,15 @@ const VenueList = (props) => {
         
     <div className="list">
 
-        <ul>
+        <ul>{props.venues.map((item) =>
+        
             <li>
                 <a  href="#">
-                    {props.venues.map()}
+                {item.nazev}
                 </a>
             </li>
+        )}
         </ul>
-
-    
-
     </div>
     )  
 };
