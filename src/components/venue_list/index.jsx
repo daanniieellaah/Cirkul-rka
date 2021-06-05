@@ -1,6 +1,16 @@
 import React from 'react';
 
+const Adress =(props) => {
+    const data = props.data;
+
+        return (
+            <p>{data.ulice} {data.mesto} {data.psc}</p>
+
+        )
+}
+
 const VenueList = (props) => {
+   
 
     return (
         
@@ -11,8 +21,10 @@ const VenueList = (props) => {
             <li>
                 <a  href="#">
                 {item.nazev}
+                <Adress data={item.adresa}/>
                 </a>
             </li>
+        
         )}
         </ul>
     </div>
