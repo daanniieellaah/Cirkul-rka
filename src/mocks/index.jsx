@@ -44,53 +44,54 @@ const getVenues = () =>
   return venues;
 }
 
+
+
 const categories  = [
  {
    typ: "bezobalovyObchod",
-   name: "Bezobalové obchody"
+   name: "Bezobalové obchody",
  },
 
  {
   typ: "secondHands",
-  name: "Second-handy"
+  name: "Second-handy",
 },
 
 {
   typ: "sbernaMista",
-  name: "Sběrná místa"
+  name: "Sběrná místa",
 },
 
 {
   typ: "bikesharing",
-  name: "Bike-sharing"
+  name: "Bike-sharing",
 },
 
 {
   typ: "servisyAopravny",
-  name: "Servisy a opravny"
+  name: "Servisy a opravny",
 },
 
 {
   typ: "pujcovny",
-  name: "Půjčovny"
+  name: "Půjčovny",
 },
 
 {
   typ: "knizniBudky",
-  name: "Knižní budky"
+  name: "Knižní budky",
 },
 
 {
   typ: "ostatni",
-  name: "Ostatní"
+  name: "Ostatní",
 }
 
-]
+];
 
-getCategories = () =>
+const getCategories = () =>
 {
-return categories 
+return categories; 
 }
-
 
 export {getVenues, getCategories}
