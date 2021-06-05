@@ -4,6 +4,9 @@ import {Address} from '..'
 
 const VenueList = (props) => {
    
+    const handleClick = () => {
+    alert("ok")
+    }
 
     return (
         
@@ -12,7 +15,7 @@ const VenueList = (props) => {
         <ul>{props.venues.map((item) =>
         
             <li>
-                <a  href="#">
+                <a  href="#" onClick={handleClick}>
                 {item.nazev}
                 <Address data={item.adresa}/>
                 </a>
