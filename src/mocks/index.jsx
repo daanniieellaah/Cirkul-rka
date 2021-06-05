@@ -44,4 +44,53 @@ const getVenues = () =>
   return venues;
 }
 
-export {getVenues}
+const categories  = [
+ {
+   typ: "bezobalovyObchod",
+   name: "Bezobalové obchody"
+ },
+
+ {
+  typ: "secondHands",
+  name: "Second-handy"
+},
+
+{
+  typ: "sbernaMista",
+  name: "Sběrná místa"
+},
+
+{
+  typ: "bikesharing",
+  name: "Bike-sharing"
+},
+
+{
+  typ: "servisyAopravny",
+  name: "Servisy a opravny"
+},
+
+{
+  typ: "pujcovny",
+  name: "Půjčovny"
+},
+
+{
+  typ: "knizniBudky",
+  name: "Knižní budky"
+},
+
+{
+  typ: "ostatni",
+  name: "Ostatní"
+}
+
+]
+
+getCategories = () =>
+{
+return categories 
+}
+
+
+export {getVenues, getCategories}
