@@ -4,20 +4,20 @@ import {Address} from '..'
 
 const VenueList = (props) => {
    
-    const handleClick = () => {
-    alert("ok")
-    }
+    const handleClick = (key) => {
+        props.handleVenue(props.venues[key])
+    };
 
     return (
         
     <div className="list">
 
-        <ul>{props.venues.map((item) =>
+        <ul>{props.venues.map((item, i) =>
         
-            <li>
-                <a  href="#" onClick={handleClick}>
+            <li key={i}>
+                <a   href="#" onClick={() => handleClick(i)}>
                 {item.nazev}
-                <Address data={item.adresa}/>
+                <Address data={item.adresa} img ={item.image_url}/>
                 </a>
             </li>
         
