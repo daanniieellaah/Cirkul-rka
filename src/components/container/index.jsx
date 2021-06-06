@@ -9,13 +9,10 @@ const places = props.venues.filter((item) => {
 
 return (
   <div>
-    <VenueList venues={places} selectedCategories={selectedCategories} handleVenue={setVenue}/>
+    <VenueList venues={places} selectedCategories={props.selectedCategories} handleVenue={props.setVenue}/>
     <Mapa/>
   </div>
 )
 };
-
-
-
 
 export default Container;

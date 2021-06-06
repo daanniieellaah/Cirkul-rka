@@ -1,5 +1,6 @@
 import React from 'react';
 import {ItemCategories} from "..";
+
 const Filtr = (props) => {
     return (    
         <div>

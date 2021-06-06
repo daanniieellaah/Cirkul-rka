@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import {VenueDetail, VenueList, Filtr, Mapa} from './components';
+import {VenueDetail, Filtr, Container} from './components';
 import {getVenues, getCategories} from './mocks';
 
 
@@ -16,20 +16,15 @@ const App = () => {
   })
   const [selectedCategories, setSelectedCategories] = useState(categoriesKeyes)
   
-  
-
   return (
     <div className="container">
     <>
     <VenueDetail data={venue}/>
         <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
-    <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue} />
+    <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
     </>
      </div>
-
   )
-
-  
 };
 
-render(<App />, document.querySelector('#app'));
+render(<App/>, document.querySelector('#app'));
