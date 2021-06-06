@@ -12,12 +12,12 @@ const Mapa = () => {
 		,
 	});
 
-	const [bezobalis, setBezobalis] = useState([
+	const [kategorie, setKategorie] = useState([
 		{
 			id: 1,
 			nazev: 'BEZOBALIS',
-			latitude: 49.1955261,
-			longitude: 16.6083544,
+			latitude: 48.8869061,
+		longitude: 18.0390322,
 		},
 		{
 			id: 2,
@@ -33,7 +33,7 @@ const Mapa = () => {
 		},
 	]);
 
-	const [vybranaRestaurace, setVybranaRestaurace] = useState(null);
+	const [vybranaKategorie, setVybranaKategorie] = useState(null);
 
 	return (
 		<>
@@ -74,7 +74,7 @@ const Mapa = () => {
 					
 				/>
 
-				{bezobalis.map((item) => (
+				{kategorie.map((item) => (
 					<React.Fragment key={item.id}>
 
 						<Marker
@@ -88,16 +88,16 @@ const Mapa = () => {
 								width={50}
 								height={50}
 								alt={item.nazev}
-								onClick={() => setVybranaRestaurace(item.id)}
+								onClick={() => setVybranaKategorie(item.id)}
 							/>
 						</Marker>
 
-						{item.id === vybranaRestaurace ? (
+						{item.id === vybranaKategorie ? (
 							<Popup
 								latitude={item.latitude}
 								longitude={item.longitude}
 								offsetTop={-60}
-								onClose={() => setVybranaRestaurace(null)}
+								onClose={() => setVybranaKategorie(null)}
 							>
 								{item.nazev}
 							</Popup>
