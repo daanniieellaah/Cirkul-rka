@@ -22,9 +22,8 @@ const App = () => {
     <div className="container">
     <>
     <VenueDetail data={venue}/>
-    <VenueList venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
-    <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
-    <Mapa/>
+        <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
+    <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue} />
     </>
      </div>
 
