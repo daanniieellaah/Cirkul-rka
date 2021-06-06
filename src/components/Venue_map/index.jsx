@@ -3,7 +3,7 @@ import { useState } from 'react';
 import ReactMapGL, { Marker, Popup, GeolocateControl } from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-const Mapa = () => {
+const Mapa = (props) => {
 
 	const [viewport, setViewport] = useState({
 		latitude: 48.8869061,
@@ -12,26 +12,9 @@ const Mapa = () => {
 		,
 	});
 
-	const [kategorie, setKategorie] = useState([
-		{
-			id: 1,
-			nazev: 'BEZOBALIS',
-			latitude: 48.8869061,
-		longitude: 18.0390322,
-		},
-		{
-			id: 2,
-			nazev: "Mc'Donnald's",
-			latitude: 49.1947328,
-			longitude: 16.6079272,
-		},
-		{
-			id: 3,
-			nazev: 'Caffé restaurant Pellegrini',
-			latitude: 49.1945533,
-			longitude: 16.6081275,
-		},
-	]);
+	const [kategorie, setKategorie] = useState(props.venues
+		
+	);
 
 	const [vybranaKategorie, setVybranaKategorie] = useState(null);
 
