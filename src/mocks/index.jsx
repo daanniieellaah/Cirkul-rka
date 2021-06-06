@@ -36,8 +36,8 @@ const venues = [
       mesto: "Trenčín",
       psc:"213 64",
     },
-    latitude: 48.8949956,
-    longitude: 18.0407183,
+    latitude: 48.8900978,
+    longitude: 18.0351828,
     kategorie: "pujcovny"
   }
 ];
