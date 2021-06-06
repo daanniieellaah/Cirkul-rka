@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import './style.css';
 import {VenueDetail, Filtr, Container, Footer} from './components';
 import {getVenues, getCategories} from './mocks';
-import Webpages from './webpages';
 
 
 
@@ -24,8 +23,7 @@ const App = () => {
     <VenueDetail data={venue}/>
         <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
     <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
-    <Webpages />
-    <Footer/>
+        <Footer/>
 
     </>
      </div>
