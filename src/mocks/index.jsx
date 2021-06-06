@@ -1,15 +1,15 @@
 const venues = [
   { id: 1,
     image_url: "https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+",
-    nazev: "Obchodík bez obalu",
-    popis: "bla",
+    nazev: "BEZOBALIS",
+    popis: "Prvý bezobalový obchod v Trenčíne. Ponúka výrobky rôzneho druhu, od potravím po drogériu či kozmetiku.",
     adresa: {
-      ulice: "Nová ulice 23",
+      ulice: "J. Braneckého 8",
       mesto: "Trenčín",
-      psc:"213 64",
+      psc:"911 91",
     },
-    latitude: 48.8949956,
-    longitude: 18.0407183,
+    latitude: 49.1955261,
+    longitude: 16.6083544,
     kategorie: "bezobalovyObchod"
   },
 
@@ -25,7 +25,6 @@ const venues = [
     latitude: 48.8949956,
     longitude: 18.0407183,
     kategorie: "secondHands"
-
   },
 
   { id: 3,
@@ -40,7 +39,6 @@ const venues = [
     latitude: 48.8949956,
     longitude: 18.0407183,
     kategorie: "pujcovny"
-
   }
 ];
 
@@ -64,7 +62,7 @@ const categories  = [
 
 {
   typ: "sbernaMista",
-  name: "Sběrná místa",
+  name: "Zberné miesta",
 },
 
 {
@@ -74,22 +72,22 @@ const categories  = [
 
 {
   typ: "servisyAopravny",
-  name: "Servisy a opravny",
+  name: "Servisy a opravovne",
 },
 
 {
   typ: "pujcovny",
-  name: "Půjčovny",
+  name: "Požičovne",
 },
 
 {
   typ: "knizniBudky",
-  name: "Knižní budky",
+  name: "Knižné búdky",
 },
 
 {
   typ: "ostatni",
-  name: "Ostatní",
+  name: "Ostatné",
 }
 
 ];
