@@ -9,7 +9,7 @@ const places = props.venues.filter((item) => {
 
 return (
   <div>
-    <VenueList venues={places} selectedCategories={props.selectedCategories} handleVenue={props.setVenue}/>
+    <VenueList venues={places} selectedCategories={props.selectedCategories} handleVenue={props.handleVenue}/>
     <Mapa/>
   </div>
 )
