@@ -11,6 +11,8 @@ import Kontakt from './kontakt';
 import Mapa from './mapa';
 import Onas from './onas';
 import Cirkularniekonomika from './cirkularniekonomika';
+import Footer from '../components/Footer';
+
 
 
 
@@ -37,12 +39,36 @@ const Webpages = () => {
           </li>
         </ul>
       </nav>
+{/*
+
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/onas">
+            <Onas />
+          </Route>
+          <Route path="/mapa">
+            <Mapa />
+          </Route>
+          <Route path="/cirkularniekonomika">
+            <Cirkularniekonomika />
+          </Route>
+          <Route path="/kontakt">
+            <Kontakt />
+          </Route>
+          
+        </Switch>
+*/}
+
 
             <Route exact path="/" component= {Home} />
             <Route path = "/kontakt" component = {Kontakt} />
             <Route path = "/mapa" component = {Mapa} />
             <Route path = "/onas" component = {Onas} />
             <Route path = "/cirkularniekonomika" component = {Cirkularniekonomika} />
+            <Route path = "/footer" component = {Footer} />
+
         </Router>
     );
 };

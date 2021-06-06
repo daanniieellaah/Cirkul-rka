@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import {VenueDetail, Filtr, Container} from './components';
+import {VenueDetail, Filtr, Container, Footer} from './components';
 import {getVenues, getCategories} from './mocks';
 import Webpages from './webpages';
 
@@ -25,6 +25,7 @@ const App = () => {
         <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
     <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
     <Webpages />
+    <Footer/>
 
     </>
      </div>
