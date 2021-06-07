@@ -1,8 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import {VenueDetail, Filtr, Container, Footer} from './components';
+import {VenueDetail, Filtr, Container, Footer, Menu} from './components';
 import {getVenues, getCategories} from './mocks';
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+
 
 
 
@@ -18,15 +27,30 @@ const App = () => {
   const [selectedCategories, setSelectedCategories] = useState(categoriesKeyes)
   
   return (
+    <Router>
     <div className="container">
-    <>
-    <VenueDetail data={venue}/>
+      <Menu/>
+    <Switch>
+    <Route  exact path= "/">
+    <div>Úvodní stránka</div>
+    
+      </Route>
+
+      <Route path="/mapa">
+        <>
+      <VenueDetail data={venue}/>
         <Filtr categories={categories} selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories}/> 
     <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
+    </>
+      </Route>
+
+    
+    </Switch>
         <Footer/>
 
-    </>
+    
      </div>
+     </Router>
   )
 };
 

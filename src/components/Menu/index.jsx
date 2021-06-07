@@ -3,9 +3,10 @@ import {Link} from "react-router-dom";
 
 
 const Menu = () => {
+  
   return (
     <div className="menu">
-{/*
+
 <nav>
         <ul>
           <li>
@@ -25,19 +26,8 @@ const Menu = () => {
           </li>
         </ul>
       </nav>
-*/}
-
-        <nav>
-            <ul class="menu">
-            <li><a href="/"><img src="img/logo.png"/></a></li>
-                <li><a href="/mapa">MAPA</a></li>
-                <li><a href="/onas">O NÁS</a></li>
-                <li><a href="/cirkularniekonomika">CIRKULÁRNÍ EKONOMIKA</a></li>
-                <li><a href="/kontakt">KONTAKT</a></li>
-            </ul>
-        </nav>
-    </div>
-  );
+</div>
+  ); 
 }
 
 export default Menu;

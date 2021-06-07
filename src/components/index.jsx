@@ -6,6 +6,7 @@ import ItemCategories from "./ItemCategories";
 import Mapa from "./Venue_map";
 import Container from "./Container";
 import Footer from "./Footer";
+import Menu from "./Menu"
 
 
-export  {VenueDetail, VenueList, Address, Filtr, ItemCategories, Mapa, Container, Footer};
+export  {VenueDetail, VenueList, Address, Filtr, ItemCategories, Mapa, Container, Footer, Menu};
