@@ -50,7 +50,42 @@ const App = () => {
             <Container venues={venuesList} selectedCategories={selectedCategories} handleVenue={setVenue}/>
           </>
         </Route>
+
+        <Route path="/onas">
+          <div>
+            <h2>O nás</h2>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, reiciendis quis voluptatum omnis quo maiores officiis ullam quisquam nemo eos, explicabo similique facere dolor soluta iusto at dolore architecto quidem.
+              </p>
+            </div>
+          </div>
+        </Route>
+
+        <Route path="/cirkularniekonomika">
+          <div>
+            <h2>Cirkulárna ekonomika</h2>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, minima. Eos est voluptates porro, ipsum cum ipsa perspiciatis, laborum asperiores facere omnis eum soluta tempore possimus sapiente? Natus, culpa ut?</p>
+            </div>
+          </div>
+        </Route>
         
+        <Route path="/kontakt">
+        <div>
+            <h2>O nás</h2>
+            <div>
+              <div>
+                <img src="img/avatar1.png"></img>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam blanditiis est adipisci. Perspiciatis, doloribus, illo, error vero minima eius reprehenderit sint aliquid blanditiis quo esse ullam labore repellendus ad ipsa.</p>
+              </div>
+              <div>
+                <img src="img/avatar2.png"></img>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam blanditiis est adipisci. Perspiciatis, doloribus, illo, error vero minima eius reprehenderit sint aliquid blanditiis quo esse ullam labore repellendus ad ipsa.</p>
+              </div>
+            </div>
+          </div>
+        </Route>
         </Switch>
 
         <Footer/>
