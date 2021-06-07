@@ -32,7 +32,7 @@ body {
   color: black;
   max-height: 100px;
   width: 100%;
-  
+  margin-bottom: 5%;
 }
 
 li {
@@ -68,8 +68,8 @@ a {
 .logo__stred {
   text-align: center;
   width: 100%;
-  margin: 5% 0%;
-
+  margin-top: 2.5%;
+  margin-bottom: 5%;
 }
 
 footer {

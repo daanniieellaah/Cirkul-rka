@@ -8,37 +8,51 @@ const venues = [
       mesto: "Trenčín",
       psc:"911 91",
     },
-    latitude: 49.1955261,
-    longitude: 16.6083544,
+    latitude: 48.891250623983375,
+    longitude: 18.0377557246782,
     kategorie: "bezobalovyObchod"
   },
 
   { id: 2,
     image_url: "https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+",
-    nazev: "Obchodík blaaa",
-    popis: "haha",
+    nazev: "Obchodík bez obalu",
+    popis: "Ponúka bezobalové potraviny a drogériu.",
     adresa: {
-      ulice: "Nová ulice 23",
+      ulice: "Palackého 84/4",
       mesto: "Trenčín",
-      psc:"213 64",
+      psc:"911 01",
     },
     latitude: 48.8949956,
     longitude: 18.0407183,
-    kategorie: "secondHands"
+    kategorie: "bezobalovyObchod"
   },
 
   { id: 3,
     image_url: "https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+",
-    nazev: "Kavejaa",
-    popis: "hehe",
+    nazev: "Zdravší Život",
+    popis: "Ponúka kozmetiku a čapovanú drogériu.",
+    adresa: {
+      ulice: "Námestie sv. Anny 16",
+      mesto: "Trenčín",
+      psc:"911 01",
+    },
+    latitude: 48.89026728998041, 
+    longitude: 18.035912061464234,
+    kategorie: "bezobalovyObchod"
+  },
+
+  { id: 4,
+    image_url: "https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+",
+    nazev: "U malého princa",
+    popis: "Ponúka kozmetiku a čapovanú drogériu.",
     adresa: {
       ulice: "Nová ulice 23",
       mesto: "Trenčín",
       psc:"213 64",
     },
-    latitude: 48.8900978,
-    longitude: 18.0351828,
-    kategorie: "pujcovny"
+    latitude: 48.895698416553785,
+    longitude: 18.042937030781175,
+    kategorie: "bezobalovyObchod"
   },
 
   { id: 21,
@@ -52,7 +66,7 @@ const venues = [
     },
     latitude: 48.897547850209854,
     longitude: 18.069513580261496,
-    kategorie: "Požičovne"
+    kategorie: "pujcovny"
   }
 ];
 
