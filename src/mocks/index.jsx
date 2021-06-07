@@ -40,6 +40,20 @@ const venues = [
     longitude: 18.0351828,
     kategorie: "pujcovny"
   }
+
+  { id: 21,
+    image_url: "",
+    nazev: "Krajčírstvo-Opatovská",
+    popis: "Oprava a úprava odevov",
+    adresa: {
+      ulice: "",
+      mesto: "Trenčín",
+      psc:"",
+    },
+    latitude: 48.897547850209854,
+    longitude: 18.069513580261496,
+    kategorie: "Požičovne"
+  }
 ];
 
 const getVenues = () =>

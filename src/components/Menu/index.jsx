@@ -19,7 +19,7 @@ const Menu = () => {
             <Link to="/mapa">Mapa</Link>
           </li>
           <li>
-            <Link to="/cirkularniekonomika">Cirkularniekonomika</Link>
+            <Link to="/cirkularniekonomika">Cirkularní ekonomika</Link>
           </li>
           <li>
             <Link to="/kontakt">Kontakt</Link>
