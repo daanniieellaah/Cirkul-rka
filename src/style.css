@@ -10,6 +10,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* uvodna stranka */
@@ -19,19 +20,31 @@ html {
   padding-left: 40px;
  width: 20%;
 }
+*/
 
-.menu {
+.menu ul {
+  display: flex;
   display: flex;
   justify-content: space-around;
-  width: 70%;
   align-items: center;
   align-content: center;
   color: black;
-  }
-*/
+}
+
+li {
+	display: flex;
+}
+
+a {
+  color: black;
+	text-decoration: none;
+  font-size: 1.5vw;
+  margin: 20px 40px;
+  font-weight: bolder;
+
+}
 
 .popis {
-  font-family: 'Montserrat', sans-serif;
   background: #c9e265;
   text-align: center;
   padding: 10px 0px;

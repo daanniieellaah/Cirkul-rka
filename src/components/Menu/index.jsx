@@ -5,12 +5,10 @@ import {Link} from "react-router-dom";
 const Menu = () => {
   
   return (
-    <div className="menu">
-
-<nav>
+<nav className = "menu">
         <ul>
           <li>
-            <Link to="/"><img src="img/logo_menu.png"/></Link>
+            <Link className="logo" to="/"><img src="img/logo_menu.png"/></Link>
           </li>
           <li>
             <Link to="/onas">O nás</Link>
@@ -26,7 +24,6 @@ const Menu = () => {
           </li>
         </ul>
       </nav>
-</div>
   ); 
 }
 
