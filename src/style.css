@@ -5,5 +5,56 @@
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+/* uvodna stranka */
+/*
+.logo {
+  justify-content: center;
+  padding-left: 40px;
+ width: 20%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+  align-content: center;
+  color: black;
+  }
+*/
+
+.popis {
+  font-family: 'Montserrat', sans-serif;
+  background: #c9e265;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 1.6vw;
+  width: 100%;
+}
+
+.logo__stred {
+  text-align: center;
+  width: 100%;
+  padding: 1% 0%;
+  margin-top: 7%;
+
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  background: #dddddd;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+

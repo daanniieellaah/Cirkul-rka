@@ -10,7 +10,7 @@ const Menu = () => {
 <nav>
         <ul>
           <li>
-            <Link to="/"><img src="img/logo.png"/></Link>
+            <Link to="/"><img src="img/logo_menu.png"/></Link>
           </li>
           <li>
             <Link to="/onas">O nás</Link>
@@ -19,7 +19,7 @@ const Menu = () => {
             <Link to="/mapa">Mapa</Link>
           </li>
           <li>
-            <Link to="/cirkularniekonomika">Cirkularní ekonomika</Link>
+            <Link to="/cirkularniekonomika">Cirkulárna ekonomika</Link>
           </li>
           <li>
             <Link to="/kontakt">Kontakt</Link>

@@ -39,7 +39,7 @@ const venues = [
     latitude: 48.8900978,
     longitude: 18.0351828,
     kategorie: "pujcovny"
-  }
+  },
 
   { id: 21,
     image_url: "",
