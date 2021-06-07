@@ -5,6 +5,7 @@ import {VenueDetail, Filtr, Container, Footer, Menu} from './components';
 import {getVenues, getCategories} from './mocks';
 
 
+
 import {
   BrowserRouter as Router,
   Switch,

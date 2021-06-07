@@ -13,8 +13,8 @@ const Menu = () => {
           <li>
             <Link to="/onas">O nás</Link>
           </li>
-          <li>
-            <Link to="/mapa">Mapa</Link>
+          <li className="highlight">
+            <Link  to="/mapa">Mapa</Link>
           </li>
           <li>
             <Link to="/cirkularniekonomika">Cirkulárna ekonomika</Link>
