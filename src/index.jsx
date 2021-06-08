@@ -53,7 +53,7 @@ const App = () => {
         </Route>
 
         <Route path="/onas">
-          <div>
+          <div className="container--about">
             <h2>O nás</h2>
             <div>
               <p>
@@ -73,18 +73,18 @@ const App = () => {
         </Route>
         
         <Route path="/kontakt">
-        <div>
-            <h2>O nás</h2>
-            <div>
-              <div>
+        <div className="container--contact">
+            <h2>Kontakt</h2>
+            <div className="container--contact-items">
+              <div className= "contact--item-1">
                 <img src="img/avatar1.png"></img>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam blanditiis est adipisci. Perspiciatis, doloribus, illo, error vero minima eius reprehenderit sint aliquid blanditiis quo esse ullam labore repellendus ad ipsa.</p>
               </div>
-              <div>
+              <div className= "contact--item-2">
                 <img src="img/avatar2.png"></img>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam blanditiis est adipisci. Perspiciatis, doloribus, illo, error vero minima eius reprehenderit sint aliquid blanditiis quo esse ullam labore repellendus ad ipsa.</p>
               </div>
-            </div>
+              </div>
           </div>
         </Route>
         </Switch>

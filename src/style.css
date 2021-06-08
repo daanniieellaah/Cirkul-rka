@@ -83,3 +83,43 @@ footer {
   text-align: center;
 }
 
+.container--about {
+  text-align: center;
+}
+
+.container--about h2 {
+  font-size: 1.7vw;
+  padding: 5px 0px;
+  }
+
+.container--contact {
+  text-align: center;
+}
+
+.container--contact h2 {
+font-size: 1.7vw;
+padding: 5px 0px;
+}
+
+.container--contact-items {
+  display: flex;
+  max-width: 100%;
+}
+
+.contact--item-1,
+.contact--item-2
+ {
+  max-width: 50%;
+}
+
+.contact--item-1 img,
+.contact--item-2 img {
+  max-width: 50%;
+}
+
+.contact--item-1 p,
+.contact--item-2 p {
+  padding: 0px 40px;
+}
+
+
