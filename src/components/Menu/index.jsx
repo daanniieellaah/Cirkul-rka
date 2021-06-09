@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-
+import logo from "/src/img/logo_menu.png";
 
 const Menu = () => {
   
@@ -8,7 +8,7 @@ const Menu = () => {
 <nav className = "menu">
         <ul>
           <li>
-            <Link className="logo" to="/"><img src="img/logo_menu.png"/></Link>
+            <Link className="logo" to="/"><img src={logo}/></Link>
           </li>
           <li>
             <Link to="/onas">O nás</Link>

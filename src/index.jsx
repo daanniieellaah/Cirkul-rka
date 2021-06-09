@@ -3,6 +3,11 @@ import { render } from 'react-dom';
 import './style.css';
 import {VenueDetail, Filtr, Container, Footer, Menu} from './components';
 import {getVenues, getCategories} from './mocks';
+import img from "./img/final.png"
+import avatar1 from "./img/avatar1.png"
+import avatar2 from "./img/avatar2.png"
+
+
 
 
 
@@ -34,7 +39,7 @@ const App = () => {
         <Route  exact path= "/">
           <div className="obsah">
             <div className="logo__stred">
-              <img src="img/final.png"/>
+              <img src={img}/>
             </div>
             <div className="banner">
               <p className="popis"> Cirkulárna mapa mesta Trenčín</p>
@@ -77,12 +82,12 @@ const App = () => {
             <h2>Kontakt</h2>
             <div className="container--contact-items">
               <div className= "contact--item-1">
-                <img src="img/avatar1.png"></img>
+                <img src={avatar1}></img>
                 <h3>Daniela Horáková</h3>
                 <p>Email: hu.dani.hu@gmail.com </p>
               </div>
               <div className= "contact--item-2">
-                <img src="img/avatar2.png"></img>
+                <img src={avatar2}></img>
                 <h3>Simona Bohušová</h3>
                 <p>Email: simonabohusova@gmail.com</p>
               </div>
