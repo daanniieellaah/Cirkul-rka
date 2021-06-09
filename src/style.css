@@ -92,12 +92,13 @@ footer {
 
 .container--contact {
   text-align: center;
+  max-height: 300px;
 }
 
 .container--contact h2 {
 font-size: 1.7vw;
 padding: 5px 0px;
-margin: 35px 0px;
+margin: 20px 0px;
 }
 
 .container--contact-items {
@@ -114,7 +115,7 @@ margin: 35px 0px;
 
 .contact--item-1 img,
 .contact--item-2 img {
-  max-width: 50%;
+  max-width: 45%;
 }
 
 .contact--item-1 p,
