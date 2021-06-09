@@ -1,78 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 * {
   box-sizing: border-box;
 }
-
 html {
   font-family: 'Montserrat', sans-serif;
 }
-
 body {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-image: url('img/mapa.png') ;
 }
-
 /* uvodna stranka */
-
 .logo {
   max-height: 80%;
 }
-
-
 .menu ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  background-color: #dddddd;
+  background-color: #DDDDDD;
   color: black;
   max-height: 100px;
   width: 100%;
 }
-
 li {
-	display: flex;
+  display: flex;
 }
-
 li :hover {
   color: white;
 }
-
 a {
   color: black;
-	text-decoration: none;
+  text-decoration: none;
   font-size: 1.4vw;
   margin: 20px 40px;
   font-weight: bolder;
 }
-
 .highlight{
-  background-color: #c9e265;
+  background-color: #C9E265;
   border-radius: 10px;
 }
-
 .popis {
-  background: #c9e265;
+  background: #C9E265;
   text-align: center;
   padding: 10px 0px;
   font-size: 1.6vw;
   width: 100%;
 }
-
 .logo__stred {
   text-align: center;
   width: 100%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
 footer {
   font-family: 'Montserrat', sans-serif;
-  background: #dddddd;
+  background: #DDDDDD;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -80,46 +67,36 @@ footer {
   color: black;
   text-align: center;
 }
-
 .container--about {
   text-align: center;
 }
-
 .container--about h2 {
   font-size: 1.7vw;
   padding: 5px 0px;
   }
-
 .container--contact {
   text-align: center;
 }
-
 .container--contact h2 {
 font-size: 1.7vw;
 padding: 5px 0px;
-margin: 35px 0px;
+margin: 20px 0px;
 }
-
 .container--contact-items {
   display: flex;
   max-width: 100%;
 }
-
 .contact--item-1,
 .contact--item-2
  {
-  /*background-color: #c9e265;*/
+  /*background-color: #C9E265;*/
   max-width: 50%;
 }
-
 .contact--item-1 img,
 .contact--item-2 img {
   max-width: 50%;
 }
-
 .contact--item-1 p,
 .contact--item-2 p {
   padding: 10px 40px;
 }
-
-
