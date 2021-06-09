@@ -14,7 +14,7 @@ const venues = [
     latitude: 48.891250623983375,
     longitude: 18.0377557246782,
     kategorie: 'bezobalovyObchod',
-    web: "https://bezobalis.sk/",
+    web: 'https://bezobalis.sk/',
   },
 
   {
@@ -574,12 +574,10 @@ const venues = [
       psc: '911 01',
     },
     latitude: 48.897387476832606,
-    longitude:  18.054197105403325,
+    longitude: 18.054197105403325,
     kategorie: 'ostatni',
   },
 ];
-
-
 
 const getVenues = () => {
   return venues;

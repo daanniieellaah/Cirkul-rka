@@ -2,9 +2,7 @@ import React from 'react';
 
 function Onas() {
   return (
-    
     <div className="container--about">
-      
       <h2>O nás</h2>
       <div>
         <p>

@@ -12,13 +12,10 @@ const Mapa = (props) => {
   });
 
   const handleClick = (id) => {
-		
     props.handleVenue(props.venues[id]);
   };
 
-  
   const [vybranyObjekt, setVybranyObjekt] = useState(null);
-  
 
   return (
     <>
