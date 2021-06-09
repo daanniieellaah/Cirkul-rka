@@ -14,6 +14,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-image: url("img/mapa.png");
 }
 
 /* uvodna stranka */
@@ -40,6 +41,10 @@ li {
 
 li :hover {
   color: white;
+}
+
+.background :hover {
+  background-color: #c9e265;
 }
 
 a {
@@ -88,22 +93,28 @@ footer {
 .container--about h2 {
   font-size: 1.7vw;
   padding: 5px 0px;
-  }
+}
 
 .container--contact {
   text-align: center;
-  max-height: 300px;
+  height: 100%;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  backdrop-filter: blur(8px);
+  padding-bottom: 100px;
 }
 
 .container--contact h2 {
 font-size: 1.7vw;
 padding: 5px 0px;
 margin: 20px 0px;
+width: 100%;
+background-color: #c9e265;
 }
 
 .container--contact-items {
   display: flex;
   max-width: 100%;
+  
 }
 
 .contact--item-1,
@@ -111,11 +122,12 @@ margin: 20px 0px;
  {
   /*background-color: #c9e265;*/
   max-width: 50%;
+
 }
 
 .contact--item-1 img,
 .contact--item-2 img {
-  max-width: 45%;
+  max-width: 50%;
 }
 
 .contact--item-1 p,

@@ -10,16 +10,16 @@ const Menu = () => {
           <li>
             <Link className="logo" to="/"><img src={logo}/></Link>
           </li>
-          <li>
+          <li className="background">
             <Link to="/onas">O nás</Link>
           </li>
           <li className="highlight">
             <Link  to="/mapa">Mapa</Link>
           </li>
-          <li>
+          <li className="background">
             <Link to="/cirkularniekonomika">Cirkulárna ekonomika</Link>
           </li>
-          <li>
+          <li className="background">
             <Link to="/kontakt">Kontakt</Link>
           </li>
         </ul>
