@@ -14,6 +14,7 @@ const venues = [
     latitude: 48.891250623983375,
     longitude: 18.0377557246782,
     kategorie: 'bezobalovyObchod',
+    web: "https://bezobalis.sk/",
   },
 
   {

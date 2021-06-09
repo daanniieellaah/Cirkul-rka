@@ -10,7 +10,7 @@ const places = props.venues.filter((item) => {
    return props.selectedCategories.includes (item.kategorie)
 } )
 return (
-    <div className="list">
+    <div className="venue-list">
         <ul>{places.map((item, i) =>
             <li key={i}>
                 <a   href="#" onClick={() => handleClick(i)}>

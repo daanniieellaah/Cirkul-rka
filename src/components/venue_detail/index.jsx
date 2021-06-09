@@ -9,7 +9,7 @@ const VenueDetail = (props) => {
     
     return (
         
-  <div className="container">
+  <div className="container_detail">
     <img src={data.image_url}>
     </img>
 

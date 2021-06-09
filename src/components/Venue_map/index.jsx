@@ -8,7 +8,7 @@ const Mapa = (props) => {
   const [viewport, setViewport] = useState({
     latitude: 48.8869061,
     longitude: 18.0390322,
-    zoom: 12,
+    zoom: 13,
   });
 
   const handleClick = (id) => {

@@ -78,11 +78,13 @@ const App = () => {
             <div className="container--contact-items">
               <div className= "contact--item-1">
                 <img src="img/avatar1.png"></img>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam blanditiis est adipisci. Perspiciatis, doloribus, illo, error vero minima eius reprehenderit sint aliquid blanditiis quo esse ullam labore repellendus ad ipsa.</p>
+                <h3>Daniela Horáková</h3>
+                <p>Email: hu.dani.hu@gmail.com </p>
               </div>
               <div className= "contact--item-2">
                 <img src="img/avatar2.png"></img>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam blanditiis est adipisci. Perspiciatis, doloribus, illo, error vero minima eius reprehenderit sint aliquid blanditiis quo esse ullam labore repellendus ad ipsa.</p>
+                <h3>Simona Bohušová</h3>
+                <p>Email: simonabohusova@gmail.com</p>
               </div>
               </div>
           </div>
