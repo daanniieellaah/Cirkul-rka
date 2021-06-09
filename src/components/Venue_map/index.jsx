@@ -15,9 +15,9 @@ const Mapa = (props) => {
 		
     props.handleVenue(props.venues[id]);
   };
-	
+
   
-  const [vybranaKategorie, setVybranaKategorie] = useState(null);
+  const [vybranyObjekt, setVybranyObjekt] = useState(null);
   
 
   return (
@@ -76,12 +76,12 @@ const Mapa = (props) => {
               {item.nazev}
             </Marker>
 
-            {item.id === vybranaKategorie ? (
+            {item.id === vybranyObjekt ? (
               <Popup
                 latitude={item.latitude}
                 longitude={item.longitude}
                 offsetTop={-60}
-                onClose={() => setVybranaKategorie(null)}
+                onClose={() => setVybranyObjekt(null)}
               >
                 {item.nazev}
               </Popup>
