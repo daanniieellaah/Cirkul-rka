@@ -69,9 +69,9 @@ const App = () => {
           </Route>
 
           <Route path="/cirkularniekonomika">
-            <div>
+          <div className="container--cirkulareko">
               <h2>Cirkulárna ekonomika</h2>
-              <div>
+              
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit, minima. Eos est voluptates porro, ipsum cum ipsa
@@ -79,7 +79,6 @@ const App = () => {
                   tempore possimus sapiente? Natus, culpa ut?
                 </p>
               </div>
-            </div>
           </Route>
 
           <Route path="/kontakt">

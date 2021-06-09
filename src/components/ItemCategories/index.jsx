@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+
 const ItemCategories = (props) => {
     const [isSelected, setIsSelected] = useState(props.selectedCategories.includes(props.typ) ? true : false)
     const handleChange = () => {

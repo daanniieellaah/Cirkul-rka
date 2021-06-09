@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-image: url("img/mapa.png");
 }
+
 /* uvodna stranka */
 .logo {
   max-height: 80%;
@@ -28,15 +29,17 @@ body {
   width: 100%;
 }
 li {
-  display: flex;
+  display: flex;  
 }
+
 li :hover {
   color: white;
 }
 
 .background :hover {
   background-color: #c9e265;
-}
+  border-radius: 5px
+  }
 
 a {
   color: black;
@@ -48,6 +51,10 @@ a {
 .highlight{
   background-color: #C9E265;
   border-radius: 10px;
+  /*pokus Danča*/
+  box-shadow: 2px 2px 2px #232421;
+  border-radius: 5px
+
 }
 .popis {
   background: #C9E265;
@@ -74,10 +81,25 @@ footer {
 }
 .container--about {
   text-align: center;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  backdrop-filter: blur(8px);
+  padding-bottom: 100px;
 }
 .container--about h2 {
   font-size: 1.7vw;
   padding: 5px 0px;
+  background-color: #c9e265;
+}
+
+.container--cirkulareko {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  backdrop-filter: blur(8px);
+  padding-bottom: 100px;
+}
+
+.container--cirkulareko h2 {
+  text-align: center;
+  background-color: #c9e265;
 }
 
 .container--contact {

@@ -11,11 +11,11 @@ const Menu = () => {
             <img src={logo} />
           </Link>
         </li>
-        <li className="background">
-          <Link to="/onas">O nás</Link>
-        </li>
         <li className="highlight">
           <Link to="/mapa">Mapa</Link>
+        </li>
+        <li className="background">
+          <Link to="/onas">O nás</Link>
         </li>
         <li className="background">
           <Link to="/cirkularniekonomika">Cirkulárna ekonomika</Link>
