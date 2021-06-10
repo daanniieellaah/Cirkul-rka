@@ -4,8 +4,11 @@ import './style.css';
 import { VenueDetail, Filtr, Container, Footer, Menu } from './components';
 import { getVenues, getCategories } from './mocks';
 import img from './img/final.png';
-import avatar1 from './img/avatar1.png';
-import avatar2 from './img/avatar2.png';
+
+import CirkularniEkonomika from './Route components/CirkularniEkonomika';
+import Onas from './Route components/Onas';
+import Kontakt from './Route components/Kontakt';
+
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -55,48 +58,15 @@ const App = () => {
           </Route>
 
           <Route path="/onas">
-            <div className="container--about">
-              <h2>O nás</h2>
-              <div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores, reiciendis quis voluptatum omnis quo maiores officiis
-                  ullam quisquam nemo eos, explicabo similique facere dolor
-                  soluta iusto at dolore architecto quidem.
-                </p>
-              </div>
-            </div>
+            <Onas/>
           </Route>
 
           <Route path="/cirkularniekonomika">
-          <div className="container--cirkulareko">
-              <h2>Cirkulárna ekonomika</h2>
-              
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Impedit, minima. Eos est voluptates porro, ipsum cum ipsa
-                  perspiciatis, laborum asperiores facere omnis eum soluta
-                  tempore possimus sapiente? Natus, culpa ut?
-                </p>
-              </div>
+          <CirkularniEkonomika/>
           </Route>
 
           <Route path="/kontakt">
-            <div className="container--contact">
-              <h2>Kontakt</h2>
-              <div className="container--contact-items">
-                <div className="contact--item-1">
-                  <img src={avatar1}></img>
-                  <h3>Daniela Horáková</h3>
-                  <p>E-mail: hu.dani.hu@gmail.com </p>
-                </div>
-                <div className="contact--item-2">
-                  <img src={avatar2}></img>
-                  <h3>Simona Bohušová</h3>
-                  <p>E-mail: simonabohusova@gmail.com</p>
-                </div>
-              </div>
-            </div>
+            <Kontakt/>
           </Route>
         </Switch>
 

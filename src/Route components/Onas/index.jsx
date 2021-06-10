@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Onas() {
+const Onas =() => {
   return (
     <div className="container--about">
       <h2>O nás</h2>

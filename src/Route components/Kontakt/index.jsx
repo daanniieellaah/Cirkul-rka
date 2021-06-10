@@ -1,6 +1,8 @@
 import React from 'react';
+import avatar1 from '/src/img/avatar1.png';
+import avatar2 from '/src/img/avatar2.png';
 
-function Kontakt() {
+const Kontakt = () => {
   return (
     <div className="container--contact">
       <h2>Kontakt</h2>
@@ -19,6 +21,7 @@ function Kontakt() {
       </div>
     </div>
   );
-}
+};
 
 export default Kontakt;
+

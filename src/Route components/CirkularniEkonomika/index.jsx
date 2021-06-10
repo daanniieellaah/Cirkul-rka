@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CirkularniEkonomika() {
+const CirkularniEkonomika=() => {
   return (
     <div>
       <h2>Cirkulárna ekonomika</h2>
