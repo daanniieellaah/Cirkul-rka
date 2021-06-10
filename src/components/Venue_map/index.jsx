@@ -46,15 +46,6 @@ const Mapa = (props) => {
         width="70%"
         height="700px"
       >
-        <GeolocateControl
-          style={{
-            right: 10,
-            top: 10,
-          }}
-          positionOptions={{ enableHighAccuracy: true }}
-          trackUserLocation={false}
-        />
-
         {props.venues.map((item, i) => (
           <React.Fragment key={item.id}>
             <Marker
@@ -70,10 +61,31 @@ const Mapa = (props) => {
                 alt={item.nazev}
                 onClick={() => handleClick(i)}
               />
-              {item.nazev}
             </Marker>
 
-            {item.id === vybranyObjekt ? (
+            
+          </React.Fragment>
+        ))}
+      </ReactMapGL>
+    </>
+  );
+};
+
+export default Mapa;
+
+/* 
+//LOCATE
+<GeolocateControl
+          style={{
+            right: 10,
+            top: 10,
+          }}
+          positionOptions={{ enableHighAccuracy: true }}
+          trackUserLocation={false}
+        />
+
+//POPUP
+{item.id === vybranyObjekt ? (
               <Popup
                 latitude={item.latitude}
                 longitude={item.longitude}
@@ -83,11 +95,4 @@ const Mapa = (props) => {
                 {item.nazev}
               </Popup>
             ) : null}
-          </React.Fragment>
-        ))}
-      </ReactMapGL>
-    </>
-  );
-};
-
-export default Mapa;
+*/

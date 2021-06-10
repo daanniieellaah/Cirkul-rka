@@ -3,11 +3,12 @@ import { render } from 'react-dom';
 import './style.css';
 import { VenueDetail, Filtr, Container, Footer, Menu } from './components';
 import { getVenues, getCategories } from './mocks';
-import img from './img/final.png';
+
 
 import CirkularniEkonomika from './Route components/CirkularniEkonomika';
 import Onas from './Route components/Onas';
 import Kontakt from './Route components/Kontakt';
+import Home from './Route components/Home';
 
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -29,14 +30,7 @@ const App = () => {
 
         <Switch>
           <Route exact path="/">
-            <div className="obsah">
-              <div className="logo__stred">
-                <img src={img} />
-              </div>
-              <div className="banner">
-                <p className="popis"> Cirkulárna mapa mesta Trenčín</p>
-              </div>
-            </div>
+            <Home/>
           </Route>
 
           <Route path="/mapa">

@@ -16,7 +16,7 @@ const Onas =() => {
           jiných akcí podporujících tuto myšlenku.
           <p>
             Projekt <b>Cirkulárka</b> vznikl v rámci
-            <i>Czechitas Datové akademie: Web</i>.
+            <i> Czechitas Datové akademie: Web</i>.
           </p>
         </p>
       </div>

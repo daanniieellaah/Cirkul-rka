@@ -11,7 +11,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url("img/mapa.png");
+  background-image: url('img/mapa.png');
+  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  backdrop-filter: blur(4px);
 }
 
 /* uvodna stranka */
@@ -23,13 +25,13 @@ body {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
   color: black;
   max-height: 100px;
   width: 100%;
 }
 li {
-  display: flex;  
+  display: flex;
 }
 
 li :hover {
@@ -38,8 +40,8 @@ li :hover {
 
 .background :hover {
   background-color: #c9e265;
-  border-radius: 5px
-  }
+  border-radius: 5px;
+}
 
 a {
   color: black;
@@ -48,16 +50,15 @@ a {
   margin: 20px 40px;
   font-weight: bolder;
 }
-.highlight{
-  background-color: #C9E265;
+.highlight {
+  background-color: #c9e265;
   border-radius: 10px;
   /*pokus Danča*/
   box-shadow: 2px 2px 2px #232421;
-  border-radius: 5px
-
+  border-radius: 5px;
 }
 .popis {
-  background: #C9E265;
+  background: #c9e265;
   text-align: center;
   padding: 10px 0px;
   font-size: 1.6vw;
@@ -71,7 +72,7 @@ a {
 }
 footer {
   font-family: 'Montserrat', sans-serif;
-  background: #DDDDDD;
+  background: #dddddd;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -110,23 +111,20 @@ footer {
   padding-bottom: 100px;
 }
 .container--contact h2 {
-font-size: 1.7vw;
-padding: 5px 0px;
-margin: 20px 0px;
-width: 100%;
-background-color: #c9e265;
+  font-size: 1.7vw;
+  padding: 5px 0px;
+  margin: 20px 0px;
+  width: 100%;
+  background-color: #c9e265;
 }
 .container--contact-items {
   display: flex;
   max-width: 100%;
-  
 }
 .contact--item-1,
-.contact--item-2
- {
+.contact--item-2 {
   /*background-color: #C9E265;*/
   max-width: 50%;
-
 }
 .contact--item-1 img,
 .contact--item-2 img {
@@ -136,4 +134,3 @@ background-color: #c9e265;
 .contact--item-2 p {
   padding: 10px 40px;
 }
-
