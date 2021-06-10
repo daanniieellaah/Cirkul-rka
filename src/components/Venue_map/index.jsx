@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import ReactMapGL, { Marker, Popup, GeolocateControl } from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import MarkerIcon from '../../img/marker.png';
 
 const Mapa = (props) => {
   const [viewport, setViewport] = useState({
@@ -64,13 +63,12 @@ const Mapa = (props) => {
               offsetTop={-50}
             >
               <img
-                src={MarkerIcon}
+                src={item.ikona}
                 width={50}
                 height={50}
                 alt={item.nazev}
                 onClick={() => handleClick(i)}
               />
-              {item.nazev}
             </Marker>
 
             {item.id === vybranyObjekt ? (

@@ -137,3 +137,6 @@ background-color: #c9e265;
   padding: 10px 40px;
 }
 
+.venue-list {
+  display: none;
+}
