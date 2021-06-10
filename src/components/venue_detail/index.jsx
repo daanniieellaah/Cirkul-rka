@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 //import './style.css';
 
 const VenueDetail = (props) => {
@@ -10,9 +12,15 @@ const VenueDetail = (props) => {
 
       <h2>{data.nazev}</h2>
       <p>{data.popis}</p>
-      <button>link</button>
 
-      <button>web</button>
+      <Link to={data.web}>
+        <button>Web</button>
+      </Link>
+      
+      <Link to={data.trasa}>
+        <button>Trasa</button>
+      </Link>
+      
     </div>
   );
 };
