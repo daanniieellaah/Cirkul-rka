@@ -138,3 +138,14 @@ footer {
 .venue-list {
   display: none;
 }
+
+/*.checkbox 
+  display: flexbox;
+  flex-direction: row;
+  padding: 1px;
+
+*/
+
+label {
+  margin: 10px;
+}

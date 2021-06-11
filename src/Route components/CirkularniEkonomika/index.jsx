@@ -1,8 +1,8 @@
 import React from 'react';
 
-const CirkularniEkonomika=() => {
+const CirkularniEkonomika = () => {
   return (
-    <div>
+    <div className="container--cirkulareko">
       <h2>Cirkulárna ekonomika</h2>
       <div>
         <p>
@@ -14,6 +14,6 @@ const CirkularniEkonomika=() => {
       </div>
     </div>
   );
-}
+};
 
 export default CirkularniEkonomika;

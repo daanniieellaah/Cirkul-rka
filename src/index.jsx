@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Router>
       <div className="container">
-        <Menu />
+        <Menu/>
 
         <Switch>
           <Route exact path="/">

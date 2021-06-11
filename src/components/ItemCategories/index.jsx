@@ -16,10 +16,12 @@ const ItemCategories = (props) => {
             console.log(props.selectedCategories)
     }
     return (
+        
         <label>
            <input type="checkbox" value={props.typ} onChange={handleChange} checked={isSelected}/>
              {props.name}
         </label>
+        
     )
 }
 export default ItemCategories;

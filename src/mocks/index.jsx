@@ -8,17 +8,10 @@ import ikonka7 from '/src/img/ikonka7.png';
 import ikonka8 from '/src/img/ikonka8.png';
 
 
-
-
-
-
-
-
 const venues = [
   {
     id: 1,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image_url:'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
     nazev: 'Bezobalis',
     popis:
       'Prvý bezobalový obchod v Trenčíne. Ponúka výrobky rôzneho druhu, od potravín po drogériu či kozmetiku.',
