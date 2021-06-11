@@ -13,7 +13,6 @@ body {
   background-size: cover;
   background-image: url('img/mapa.png');
   background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  backdrop-filter: blur(4px);
 }
 
 /* uvodna stranka */
