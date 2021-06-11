@@ -13,7 +13,6 @@ body {
   background-size: cover;
   background-image: url('img/mapa.png');
   background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  backdrop-filter: blur(4px);
 }
 
 /* uvodna stranka */
@@ -137,15 +136,4 @@ footer {
 
 .venue-list {
   display: none;
-}
-
-/*.checkbox 
-  display: flexbox;
-  flex-direction: row;
-  padding: 1px;
-
-*/
-
-label {
-  margin: 10px;
 }
