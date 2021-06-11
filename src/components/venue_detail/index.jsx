@@ -13,7 +13,7 @@ const VenueDetail = (props) => {
 
   return (
     <div className="container_detail">
-      <img src={data.image_url}></img>
+      <img src={data.image}></img>
       <button onClick={handleClick}>Späť</button>
 
       <h2>{data.nazev}</h2>
