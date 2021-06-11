@@ -114,6 +114,13 @@ footer {
   margin-bottom: 100px;
 }
 
+/*Cirkulárna ekonomika*/
+.container--cirkulareko img {
+  width: 40%;
+  height: 40%;
+  border: 6px solid #dddddd;
+}
+
 .container--contact {
   text-align: center;
   height: 100%;
@@ -149,6 +156,11 @@ footer {
   padding: 10px 40px;
 }
 
+/*kategorie image - náhled*/
+.img_kategorie {
+  border: 6px solid #dddddd;
+}
+
 .menu {
   overflow: hidden;
   position: fixed;
@@ -157,9 +169,11 @@ footer {
   z-index: 99;
 }
 
-.main{
+
+.main {
   margin-top: 115px;
 }
+
 
 .container {
   width: 100%;
