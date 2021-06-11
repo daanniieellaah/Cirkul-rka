@@ -159,8 +159,9 @@ footer {
 /*kategorie image - náhled*/
 .img_kategorie {
   border: 6px solid #dddddd;
+}
 
-  .menu {
+.menu {
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -168,9 +169,11 @@ footer {
   z-index: 99;
 }
 
-.main{
+
+.main {
   margin-top: 115px;
 }
+
 
 .container {
   width: 100%;
