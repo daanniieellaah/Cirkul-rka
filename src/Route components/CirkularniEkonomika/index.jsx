@@ -1,16 +1,19 @@
 import React from 'react';
+import CirkulacniModely from '/src/img/CirkulacniModely.png'
+
 
 const CirkularniEkonomika = () => {
   return (
     <div className="container--cirkulareko">
       <h2>Cirkulárna ekonomika</h2>
       <div>
+      <img src= {CirkulacniModely} alt="cirkulární a lineární ekonomika" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
-          minima. Eos est voluptates porro, ipsum cum ipsa perspiciatis, laborum
-          asperiores facere omnis eum soluta tempore possimus sapiente? Natus,
-          culpa ut?
+        Zdroj: <i> Incien.org</i>
         </p>
+      </div>
+      <div className = "cirkulareko_text">
+
       </div>
     </div>
   );

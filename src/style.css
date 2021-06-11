@@ -103,6 +103,13 @@ footer {
   background-color: #c9e265;
 }
 
+/*Cirkulárna ekonomika*/
+.container--cirkulareko img {
+  width: 40%;
+  height: 40%;
+  border: 6px solid #dddddd;
+}
+
 .container--contact {
   text-align: center;
   height: 100%;
@@ -135,13 +142,7 @@ footer {
   padding: 10px 40px;
 }
 
-.venue-list {
-  display: none;
-}
-
+/*kategorie image - náhled*/
 .img_kategorie {
-  border: 5px solid #dddddd
-}
-label {
-  margin: 10px;
+  border: 6px solid #dddddd;
 }
