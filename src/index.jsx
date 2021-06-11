@@ -19,28 +19,29 @@ const App = () => {
     <Router>
       <div className="container">
         <Menu/>
+          <div className="main">
+            <Switch>
+              <Route exact path="/">
+                <Home/>
+              </Route>
 
-        <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
+              <Route path="/mapa">
+                <Mapakomponenta/>
+              </Route>
 
-          <Route path="/mapa">
-            <Mapakomponenta/>
-          </Route>
+              <Route path="/onas">
+                <Onas/>
+              </Route>
 
-          <Route path="/onas">
-            <Onas/>
-          </Route>
+              <Route path="/cirkularniekonomika">
+              <CirkularniEkonomika/>
+              </Route>
 
-          <Route path="/cirkularniekonomika">
-          <CirkularniEkonomika/>
-          </Route>
-
-          <Route path="/kontakt">
-            <Kontakt/>
-          </Route>
-        </Switch>
+              <Route path="/kontakt">
+                <Kontakt/>
+              </Route>
+            </Switch>
+          </div>
 
         <Footer />
       </div>
