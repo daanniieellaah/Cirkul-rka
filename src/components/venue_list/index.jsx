@@ -2,6 +2,7 @@ import React from 'react';
 import { Address } from '..';
 
 const VenueList = (props) => {
+
   const handleClick = (key) => {
     props.handleVenue(props.venues[key]);
   };

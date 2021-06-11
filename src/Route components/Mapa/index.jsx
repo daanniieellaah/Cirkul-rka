@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { VenueDetail, Filtr, Container} from '/src/components';
+import { Filtr, Container} from '/src/components';
 import { getVenues, getCategories } from '/src/mocks';
 
 
@@ -7,16 +7,17 @@ const venuesList = getVenues();
 const categories = getCategories();
 
 const Mapakomponenta = () => {
-  const [venue, setVenue] = useState(venuesList[0]);
+  // const [venue, setVenue] = useState(venuesList[0]);
+
   const categoriesKeyes = categories.map((item) => {
     return item.typ;
   });
   const [selectedCategories, setSelectedCategories] = useState(categoriesKeyes);
 
   return (
-        
+
             <>
-              <VenueDetail data={venue} />
+              {/* <VenueDetail data={venue} /> */}
 
               <Filtr
                 categories={categories}
@@ -27,10 +28,10 @@ const Mapakomponenta = () => {
               <Container
                 venues={venuesList}
                 selectedCategories={selectedCategories}
-                handleVenue={setVenue}
+                // handleVenue={setVenue}
               />
             </>
-         
+
   );
 };
 
