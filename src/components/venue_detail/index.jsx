@@ -9,7 +9,7 @@ const VenueDetail = (props) => {
 
   return (
     <div className="container_detail">
-      <img src={data.image_url}></img>
+      <img  className = "img_kategorie"src={data.image}></img>
 
       <h2>{data.nazev}</h2>
       <p>{data.popis}</p>

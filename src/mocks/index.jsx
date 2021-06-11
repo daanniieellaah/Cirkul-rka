@@ -7,21 +7,21 @@ import ikonka6 from '/src/img/ikonka6.png';
 import ikonka7 from '/src/img/ikonka7.png';
 import ikonka8 from '/src/img/ikonka8.png';
 
-/*
-import BezobalovyObchod from "src/img/BezobalovyObchod.png";
-import BikeSharing from "src/img/BikeSharing.png";
-import KnizniBudka from "src/img/KnizniBudka.png";
-import Ostatni  from "src/img/Ostatni.png";
-import Pujcovna from "src/img/Pujcovna.png";
-import SberneMisto from "src/img/SberneMisto.png";
-import SecondHand from "src/img/SecondHand.png";
-import ServisOpravna from "src/img/ServisOpravna.png";
-*/
+
+import BezobalovyObchod from "/src/img/BezobalovyObchod.png";
+import BikeSharing from "/src/img/BikeSharing.png";
+import KnizniBudka from "/src/img/KnizniBudka.png";
+import Ostatni  from "/src/img/Ostatni.png";
+import Pujcovna from "/src/img/Pujcovna.png";
+import SberneMisto from "/src/img/SberneMisto.png";
+import SecondHand from "/src/img/SecondHand.png";
+import ServisOpravna from "/src/img/ServisOpravna.png";
+
 
 const venues = [
   {
     id: 1,
-    image_url:'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BezobalovyObchod,
     nazev: 'Bezobalis',
     popis:
       'Prvý bezobalový obchod v Trenčíne. Ponúka výrobky rôzneho druhu, od potravín po drogériu či kozmetiku.',
@@ -40,8 +40,7 @@ const venues = [
 
   {
     id: 2,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BezobalovyObchod,
     nazev: 'Obchodík bez obalu',
     popis: 'Ponuka bezobalových potravín a drogérie',
     adresa: {
@@ -58,8 +57,7 @@ const venues = [
 
   {
     id: 3,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BezobalovyObchod,
     nazev: 'Zdravší Život',
     popis: 'Ponuka kozmetiky a čapované drogérie',
     adresa: {
@@ -77,8 +75,7 @@ const venues = [
 
   {
     id: 4,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BezobalovyObchod,
     nazev: 'U malého princa',
     popis: 'Ponuka kozmetiky a čapované drogérie',
     adresa: {
@@ -96,8 +93,7 @@ const venues = [
 
   {
     id: 5,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BezobalovyObchod,
     nazev: 'Trhovisko - OC Družba',
     popis:
       'Na trhovisku nájdete rôzne produkty od čerstvého ovocia a zeleniny až po rezané, či črepníkové rastliny.',
@@ -115,8 +111,7 @@ const venues = [
 
   {
     id: 6,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SecondHand,
     nazev: 'Humana',
     popis: 'Second-hand',
     adresa: {
@@ -134,8 +129,7 @@ const venues = [
 
   {
     id: 7,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SecondHand,
     nazev: 'UNIMODA',
     popis: 'Second-hand',
     adresa: {
@@ -152,8 +146,7 @@ const venues = [
 
   {
     id: 8,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SecondHand,
     nazev: 'Textile house',
     popis: 'Second-hand',
     adresa: {
@@ -170,8 +163,7 @@ const venues = [
 
   {
     id: 9,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SecondHand,
     nazev: 'Bazárik',
     popis: 'Second-hand',
     adresa: {
@@ -188,8 +180,7 @@ const venues = [
 
   {
     id: 10,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SberneMisto,
     nazev: 'Zberný dvor - Zlatovská',
     popis: 'Zberný dvor',
     adresa: {
@@ -206,8 +197,7 @@ const venues = [
 
   {
     id: 11,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SberneMisto,
     nazev: 'Zberný dvor - Sever',
     popis: 'Zberný dvor',
     adresa: {
@@ -224,8 +214,7 @@ const venues = [
 
   {
     id: 12,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: SberneMisto,
     nazev: 'Zberný dvor - Soblahovská',
     popis: 'Zberný dvor',
     adresa: {
@@ -242,8 +231,7 @@ const venues = [
 
   {
     id: 13,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BikeSharing,
     nazev: 'Mestský bicykel – Vajanského',
     popis: 'Bike-sharing',
     adresa: {
@@ -260,8 +248,7 @@ const venues = [
 
   {
     id: 14,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BikeSharing,
     nazev: 'Mestský bicykel – knižnica',
     popis: 'Bike-sharing',
     adresa: {
@@ -278,8 +265,7 @@ const venues = [
 
   {
     id: 15,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BikeSharing,
     nazev: 'Mestský bicykel – ZUŠ',
     popis: 'Bike-sharing',
     adresa: {
@@ -296,8 +282,7 @@ const venues = [
 
   {
     id: 16,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BikeSharing,
     nazev: 'Mestský bicykel – krytá plaváreň',
     popis: 'Bike-sharing',
     adresa: {
@@ -314,8 +299,7 @@ const venues = [
 
   {
     id: 17,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BikeSharing,
     nazev: 'Mestský bicykel – stanica Zlatovce',
     popis: 'Bike-sharing',
     adresa: {
@@ -332,8 +316,7 @@ const venues = [
 
   {
     id: 18,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: BikeSharing,
     nazev: 'Mestský bicykel –Železničná stanica',
     popis: 'Bike-sharing',
     adresa: {
@@ -350,8 +333,7 @@ const venues = [
 
   {
     id: 19,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: ServisOpravna,
     nazev: 'House of bike',
     popis: 'Servis bicyklov',
     adresa: {
@@ -368,8 +350,7 @@ const venues = [
 
   {
     id: 20,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: ServisOpravna,
     nazev: 'T-šport',
     popis: 'Servis lyží',
     adresa: {
@@ -386,8 +367,7 @@ const venues = [
 
   {
     id: 21,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: ServisOpravna,
     nazev: 'Oprava obuvi - Mrázik',
     popis: 'Oprava obuvi a brašnárstvo',
     adresa: {
@@ -404,8 +384,7 @@ const venues = [
 
   {
     id: 22,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: ServisOpravna,
     nazev: 'Rychloservis počítačov',
     popis: 'Sevis výpočtovej techniky',
     adresa: {
@@ -422,8 +401,7 @@ const venues = [
 
   {
     id: 23,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: ServisOpravna,
     nazev: 'CrashStudio',
     popis: 'Sevis mobilných telefonóv',
     adresa: {
@@ -440,8 +418,7 @@ const venues = [
 
   {
     id: 24,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: ServisOpravna,
     nazev: 'Svet času - hodinárstvo',
     popis: 'Oprava hodín',
     adresa: {
@@ -458,8 +435,7 @@ const venues = [
 
   {
     id: 25,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Pujcovna,
     nazev: 'Knižnica vecí',
     popis: 'Požičovňa rôznych predmetov',
     adresa: {
@@ -476,8 +452,7 @@ const venues = [
 
   {
     id: 26,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Pujcovna,
     nazev: 'LEGO KreaTivO',
     popis: 'Požičovňa LEGA',
     adresa: {
@@ -494,8 +469,7 @@ const venues = [
 
   {
     id: 27,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Pujcovna,
     nazev: 'CrashStudio',
     popis: 'Požičovňa PS hier',
     adresa: {
@@ -512,8 +486,7 @@ const venues = [
 
   {
     id: 28,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Pujcovna,
     nazev: 'Danica',
     popis: 'Požičovňa šiat',
     adresa: {
@@ -530,8 +503,7 @@ const venues = [
 
   {
     id: 29,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Pujcovna,
     nazev: 'GETOS - dopravné značenie',
     popis: 'požičovňa dopravných značiek',
     adresa: {
@@ -548,8 +520,7 @@ const venues = [
 
   {
     id: 30,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: KnizniBudka,
     nazev: 'Knižná búdka – 17. novembra',
     popis: 'Knižná búdka',
     adresa: {
@@ -566,8 +537,7 @@ const venues = [
 
   {
     id: 31,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: KnizniBudka,
     nazev: 'Knižná búdka – Gymnázium Ľ. Štúra',
     popis: 'Knižná búdka',
     adresa: {
@@ -584,8 +554,7 @@ const venues = [
 
   {
     id: 32,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: KnizniBudka,
     nazev: 'Centrum enviromentálnych aktivít',
     popis: 'Knižná búdka',
     adresa: {
@@ -602,8 +571,7 @@ const venues = [
 
   {
     id: 33,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: KnizniBudka,
     nazev: 'Detské ihrisko JUH',
     popis: 'Knižná búdka',
     adresa: {
@@ -620,8 +588,7 @@ const venues = [
 
   {
     id: 34,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Ostatni,
     nazev: 'Kasňa',
     popis: 'Zbierka materiálnej pomoci',
     adresa: {
@@ -638,8 +605,7 @@ const venues = [
 
   {
     id: 35,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Ostatni,
     nazev: 'Dokola SWAP',
     popis: 'výmena oblečenia',
     adresa: {
@@ -656,8 +622,7 @@ const venues = [
 
   {
     id: 36,
-    image_url:
-      'https://dummyimage.com/400x200/000000/fff.png&text=zvone%C4%8Dky+',
+    image: Ostatni,
     nazev: 'ZSE - EON nabíjacia stanica',
     popis: 'nabíjačka elektromobilov',
     adresa: {

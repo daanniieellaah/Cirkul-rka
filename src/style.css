@@ -139,13 +139,9 @@ footer {
   display: none;
 }
 
-/*.checkbox 
-  display: flexbox;
-  flex-direction: row;
-  padding: 1px;
-
-*/
-
+.img_kategorie {
+  border: 5px solid #dddddd
+}
 label {
   margin: 10px;
 }
