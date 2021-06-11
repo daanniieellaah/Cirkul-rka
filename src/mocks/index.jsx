@@ -7,6 +7,16 @@ import ikonka6 from '/src/img/ikonka6.png';
 import ikonka7 from '/src/img/ikonka7.png';
 import ikonka8 from '/src/img/ikonka8.png';
 
+/*
+import BezobalovyObchod from "src/img/BezobalovyObchod.png";
+import BikeSharing from "src/img/BikeSharing.png";
+import KnizniBudka from "src/img/KnizniBudka.png";
+import Ostatni  from "src/img/Ostatni.png";
+import Pujcovna from "src/img/Pujcovna.png";
+import SberneMisto from "src/img/SberneMisto.png";
+import SecondHand from "src/img/SecondHand.png";
+import ServisOpravna from "src/img/ServisOpravna.png";
+*/
 
 const venues = [
   {

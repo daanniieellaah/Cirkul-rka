@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Onas =() => {
+const Onas = () => {
   return (
     <div className="container--about">
       <h2>O nás</h2>
@@ -22,6 +22,6 @@ const Onas =() => {
       </div>
     </div>
   );
-}
+};
 
 export default Onas;
