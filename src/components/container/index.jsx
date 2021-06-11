@@ -10,7 +10,7 @@ const Container = (props) => {
   } )
 
   return (
-    <div>
+    <div className="main-container">
       {
         venue === null
         ? <VenueList venues={places} selectedCategories={props.selectedCategories} handleVenue={setVenue}/>

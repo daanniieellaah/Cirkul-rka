@@ -173,6 +173,7 @@ footer {
 
 .filtr-categories{
   display:flex;
+  height: 100%;
   align-items:center;
   padding: 1% 4.5%;
   background-color: #c9e265;
@@ -180,4 +181,25 @@ footer {
 
   .filtr-categories h1 {
     font-size: 25px;
+  }
+
+  .venue-list {
+    max-width: 30%;
+    max-height: 100%;
+    backdrop-filter: blur(8px);
+    overflow:scroll;
+  }
+
+  .venue-list :hover {
+    color: #c9e265;
+  }
+
+  .container_detail {
+    max-width: 30%;
+    backdrop-filter: blur(8px);
+    padding: 2% 2%;
+  }
+
+  .main-container{
+    display: flex;
   }
