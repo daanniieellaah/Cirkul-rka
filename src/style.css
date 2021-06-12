@@ -229,11 +229,13 @@ border: 3px solid #95b611;
   .venue-list {
     max-width: 30%;
     backdrop-filter: blur(8px);
-    overflow:scroll;
+    overflow:auto; 
     height:100%;
     scroll-behavior: smooth;
+    border: 6px solid #dddddd;
   }
-
+  
+  
   .venue-list :hover {
     color:#aed121;
   }
@@ -243,6 +245,7 @@ border: 3px solid #95b611;
     background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     backdrop-filter: blur(8px); 
     padding: 2% 2%;
+    border: 6px solid #dddddd;
   }
 
   .main-container{
@@ -283,7 +286,7 @@ border: 3px solid #95b611;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .container-detail-btns a {
@@ -300,4 +303,19 @@ border: 3px solid #95b611;
     width: 100%;
   }
 
+/* scrollbar*/
+
+  ::-webkit-scrollbar {
+    background-color: whitesmoke;
+    ;
+  }
+
+  ::-webkit-scrollbar-button {
+    background-color: #95b611;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #c9e265;
+  }
+  
   
