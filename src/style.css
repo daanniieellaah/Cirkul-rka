@@ -123,6 +123,7 @@ margin-right: 45px;
   background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   backdrop-filter: blur(8px);
   padding-bottom: 100px;
+  display: block;
 }
 
 .container--cirkulareko h2 {
@@ -134,11 +135,34 @@ margin-right: 45px;
   margin-bottom: 100px;
 }
 
+
 .container--cirkulareko img {
   width: 40%;
   height: 40%;
   border: 6px solid #dddddd;
 }
+
+.cirkulareko--text img {
+height: 100%;
+width: 40%;
+border: 1px solid;
+border-radius: 10px;
+box-shadow: 2px 2px 2px #232421;
+border-radius: 5px;
+}
+
+.cirkulareko--text img:hover {
+  box-shadow: 3px 3px 3px #232421;
+  border: 2px solid #232421;
+}
+
+.odkaz1,
+.odkaz2,
+.odkaz3,
+.odkaz4 {
+  display: flex;
+  
+  }
 
 .container--contact {
   text-align: center;

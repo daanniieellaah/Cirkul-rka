@@ -12,14 +12,12 @@ const Onas = () => {
 
         <div className="paragraph">
           <p>
-            Projekt <b>Cirkulárka</b> podporuje Na mapě jsou zobrazena místa
-            půjčoven různých věcí a potřeb, adresy bezobalových obchodů či
-            second-handů, opraven, servisů nebo také knižní budky. Součástí mapy
-            jsou také místa, kam lidé mohou přinést na recyklaci různé použité
-            věci jako například použitý zubní kartáček či nepotřebný textil.
-            Plánujeme sekci zaměřenou například na informace o organizování
-            různých swapu (oblečení, knihy, rostlinky atd.) Nebo jiných akcí
-            podporujících tuto myšlenku.
+            Projekt <b>Cirkulárka</b> podporuje podporuje současný trend přechodu od lineární k cirkulární ekonomice. V rámci této problematiky jsme se věnovaly jednomu konrétnímu místu - městu Trenčín. 
+            
+            Mapa zobrazuje přehled míst, která podporují současný tred udržitelosti - například bezobalové odchody, second-handy, knižní budky, sběrná místa či knižní budky. 
+            
+            Jakožto možná budoucí rozšíření plánujeme sekci "Události" zaměřenou na informace o organizování
+            různých akcí či aktivit ve městě a jeho blízkém okolí a dále také propojení této sekce s kalendářem.
             </p>
             <br/>
             <p>
