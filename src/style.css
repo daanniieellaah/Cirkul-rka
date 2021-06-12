@@ -4,6 +4,8 @@
 }
 html {
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
 
 }
 body {
@@ -14,6 +16,11 @@ body {
   background-size: cover;
   background-image: url('img/mapa.png');
   margin: 0px;
+  height: 100%;
+}
+
+#App{
+  height: 100%;
 }
 
 /* uvodna stranka */
@@ -70,6 +77,7 @@ a {
   margin-top: 15%;
   margin-bottom: 5%;
 }
+
 footer {
   font-family: 'Montserrat', sans-serif;
   background: #dddddd;
@@ -80,21 +88,38 @@ footer {
   color: black;
   text-align: center;
 }
+
 .container--about {
   text-align: center;
+  height: 100%;
   background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   backdrop-filter: blur(8px);
+}
+
+.container--about-top {
+display: flex;
+padding-bottom: 100px;
+font-size: 20px;
+text-align: end;
+}
+
+.container--about img{
+width: 20%;
+margin-left: 30px;
+margin-right: 45px;
 }
 
 .container--about h2 {
   font-size: 1.7vw;
   padding: 5px 0px;
   background-color: #c9e265;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
-.container--about p {
-  margin: 20px 100px;
+.paragraph {
+  width: 80%;
+  align-self: center;
+  margin: 0px 30px;
 }
 
 /*Cirkulárna ekonomika*/
@@ -179,7 +204,7 @@ border: 3px solid #aed121;
 button:active {
 box-shadow: 3px 3px 3px #232421;
 background-color:#95b611;
-border: 3px solid #95b611;
+border: 3px solid #b4b7a7;
 
 }
 
@@ -194,6 +219,7 @@ border: 3px solid #95b611;
 
 .main {
   margin-top: 115px;
+  height: 100%;
 }
 
 
