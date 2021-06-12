@@ -88,7 +88,7 @@ footer {
 .container--about {
   position: absolute;
   left: 0;
-  height: 100%;
+  height: 700px;
   width: 100%;
   text-align: center;
   background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -129,13 +129,16 @@ margin-right: 45px;
 .container--cirkulareko {
   position: absolute;
   left: 0;
-  height: 100%;
+  height: 775px;
   width: 100%;
   text-align: center;
-  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   backdrop-filter: blur(8px);
-  padding-bottom: 100px;
-  display: block;
+}
+
+.container--cirkulareko-box{
+  display: flex;
+  margin: 10px 30px;
+
 }
 
 .container--cirkulareko h2 {
@@ -146,19 +149,30 @@ margin-right: 45px;
   background-color: #c9e265;
   color: white;
   margin: 20px 0px;
-
 }
 
 
-.container--cirkulareko img {
-  width: 40%;
-  height: 40%;
+.container--cirkulareko-img {
+  width: 50%;
   border: 6px solid #dddddd;
+  display: flex;
+  margin: 35px;
+}
+
+.container--cirkulareko-img img {
+  width: 50%;
+  margin-right: 20px;
+
+}
+
+.cirkulareko--text{
+  margin: 10px 35px;
+  text-align: start;
 }
 
 .cirkulareko--text img {
 height: 100%;
-width: 40%;
+width: 50%;
 border: 1px solid;
 border-radius: 10px;
 box-shadow: 2px 2px 2px #232421;
@@ -182,7 +196,7 @@ border-radius: 5px;
   text-align: center;
   position: absolute;
   left: 0;
-  height: 100%;
+  height: 675px;
   width: 100%;
   backdrop-filter: blur(8px);
 }
