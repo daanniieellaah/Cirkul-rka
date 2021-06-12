@@ -46,11 +46,6 @@ li :hover {
   color: white;
 }
 
-.background :hover {
-  background-color: #c9e265;
-  border-radius: 5px;
-}
-
 a {
   color: black;
   text-decoration: none;
