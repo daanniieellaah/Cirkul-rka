@@ -13,24 +13,29 @@ const VenueDetail = (props) => {
 
   return (
     <div className="container--detail">
-      <img src={data.image}></img>
-      <button className ="button_zpet" onClick={handleClick}>Späť</button>
+      <div className = "container--detail-top">
+        <img src={data.image}></img>
+        <button className ="button_zpet" onClick={handleClick}>Späť</button>
+      </div>
 
-      <h2>{data.nazev}</h2>
-      <p>{data.popis}</p>
+      <div className="container--detail-middle">
+        <h2>{data.nazev}</h2>
+        <p>{data.popis}</p>
+      </div>
 
-      { data.web &&
-        <Link to={data.web}>
-          <button>Web</button>
-        </Link>
-      }
+      <div className="container-detail-btns">
+        { data.web &&
+          <Link to={data.web}>
+            <button className="btn1">Web</button>
+          </Link>
+        }
 
-      { data.trasa &&
-        <Link to={data.trasa}>
-          <button>Trasa</button>
-        </Link>
-      }
-
+        { data.trasa &&
+          <Link to={data.trasa}>
+            <button className="btn2">Trasa</button>
+          </Link>
+        }
+      </div>
     </div>
   );
 };

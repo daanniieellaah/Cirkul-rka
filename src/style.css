@@ -160,6 +160,7 @@ footer {
 .container--detail img {
   border: 6px solid #dddddd ;
   border-radius: 5px;
+  align-self: center;
 }
 
 .container--detail button {
@@ -208,7 +209,6 @@ border: 3px solid #95b611;
 
 .filtr-categories{
   display:flex;
-  height: 100%;
   align-items:center;
   padding: 1% 4.5%;
   background-color: #c9e265;
@@ -220,7 +220,6 @@ border: 3px solid #95b611;
 
   .venue-list {
     max-width: 30%;
-    max-height: 100%;
     backdrop-filter: blur(8px);
     overflow:scroll;
   }
@@ -239,3 +238,55 @@ border: 3px solid #95b611;
   .main-container{
     display: flex;
   }
+
+  .container--detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding: 20px;
+  }
+
+  .container--detail-top{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container--detail-top button {
+    width: 30%;
+    align-self: flex-end;
+    order: -1;
+  }
+
+  .container--detail-top img {
+    width: 80%;
+    align-self: center;
+    order: 1;
+    margin-top: 10px;
+  }
+
+.container--detail-middle {
+  padding: 10px 0px;
+}
+
+  .container-detail-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container-detail-btns a {
+    width: 100%;
+  }
+
+  .btn1{
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .btn2{
+    align-self: flex-end;
+    width: 100%;
+  }
+
+  
