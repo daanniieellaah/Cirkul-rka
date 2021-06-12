@@ -230,7 +230,7 @@ border: 3px solid #95b611;
   }
 
   .container--detail {
-    max-width: 30%;
+    width: 30%;
     background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     backdrop-filter: blur(8px); 
     padding: 2% 2%;

@@ -1,11 +1,11 @@
-import ikonka1 from '/src/img/ikonka1.png';
-import ikonka2 from '/src/img/ikonka2.png';
-import ikonka3 from '/src/img/ikonka3.png';
-import ikonka4 from '/src/img/ikonka4.png';
-import ikonka5 from '/src/img/ikonka5.png';
-import ikonka6 from '/src/img/ikonka6.png';
-import ikonka7 from '/src/img/ikonka7.png';
-import ikonka8 from '/src/img/ikonka8.png';
+import ikonka1 from '/src/img/ikonka1.svg';
+import ikonka2 from '/src/img/ikonka2.svg';
+import ikonka3 from '/src/img/ikonka3.svg';
+import ikonka4 from '/src/img/ikonka4.svg';
+import ikonka5 from '/src/img/ikonka5.svg';
+import ikonka6 from '/src/img/ikonka6.svg';
+import ikonka7 from '/src/img/ikonka7.svg';
+import ikonka8 from '/src/img/ikonka8.svg';
 
 
 import BezobalovyObchod from "/src/img/BezobalovyObchod.png";
