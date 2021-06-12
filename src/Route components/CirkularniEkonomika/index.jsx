@@ -25,6 +25,8 @@ const CirkularniEkonomika = () => {
       Udržitelnost a efektivita procesu recyklace se promítá  téměř do všech oblastí lidkého života a činností, přičemž cílem je zvyšovat kvalitu životního prostředí a lidského života pomocí zvyšování efektivity produkce.
 
       Nezbytností je schopnost uvažovat v dlouhodobém horizontu a také schopnost dávání věcí do souvislostí. Společnost by se tedy v duchu myšlenky oběhového hospodářství měla rozvíjet  nejen s ohledem na ekonomickou stránku, ale také brát ohled na na kvalitu života a environmentální ochranu.
+      <hr />
+      <br />
       
       <div className = "odkaz1">
       <a href="https://www.incien.sk/"><img src={Odkaz} alt="odkaz incien.sk" /></a>
