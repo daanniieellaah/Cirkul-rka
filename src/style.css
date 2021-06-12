@@ -13,7 +13,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-image: url('img/mapa.png');
-  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   margin: 0px;
 }
 
@@ -55,7 +54,6 @@ a {
 .highlight {
   background-color: #c9e265;
   border-radius: 10px;
-  /*pokus Danča*/
   box-shadow: 2px 2px 2px #232421;
   border-radius: 5px;
 }
@@ -99,6 +97,8 @@ footer {
   margin: 20px 100px;
 }
 
+/*Cirkulárna ekonomika*/
+
 .container--cirkulareko {
   background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   backdrop-filter: blur(8px);
@@ -114,7 +114,6 @@ footer {
   margin-bottom: 100px;
 }
 
-/*Cirkulárna ekonomika*/
 .container--cirkulareko img {
   width: 40%;
   height: 40%;
@@ -156,9 +155,31 @@ footer {
   padding: 10px 40px;
 }
 
-/*kategorie image - náhled*/
-.img_kategorie {
-  border: 6px solid #dddddd;
+/*venue_detail image + buttons */
+
+.container--detail img {
+  border: 6px solid #dddddd ;
+  border-radius: 5px;
+}
+
+.container--detail button {
+  border: 2px solid #c9e265;
+  border-radius: 5px;
+  background-color: #c9e265;
+  box-shadow: 2px 2px 2px #232421;
+  transform: translate3d(5px);
+}
+
+button:hover {
+background-color: #aed121;
+border: 3px solid #aed121;
+}
+
+button:active {
+box-shadow: 3px 3px 3px #232421;
+background-color:#95b611;
+border: 3px solid #95b611;
+
 }
 
 .menu {
@@ -205,12 +226,13 @@ footer {
   }
 
   .venue-list :hover {
-    color: #c9e265;
+    color:#aed121;
   }
 
-  .container_detail {
+  .container--detail {
     max-width: 30%;
-    backdrop-filter: blur(8px);
+    background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    backdrop-filter: blur(8px); 
     padding: 2% 2%;
   }
 

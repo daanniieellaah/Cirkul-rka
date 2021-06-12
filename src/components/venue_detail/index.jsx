@@ -12,9 +12,9 @@ const VenueDetail = (props) => {
   };
 
   return (
-    <div className="container_detail">
+    <div className="container--detail">
       <img src={data.image}></img>
-      <button onClick={handleClick}>Späť</button>
+      <button className ="button_zpet" onClick={handleClick}>Späť</button>
 
       <h2>{data.nazev}</h2>
       <p>{data.popis}</p>

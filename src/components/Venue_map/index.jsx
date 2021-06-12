@@ -2,20 +2,16 @@ import * as React from 'react';
 import { useState } from 'react';
 import ReactMapGL, { Marker, Popup, GeolocateControl } from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-
 const Mapa = (props) => {
   const [viewport, setViewport] = useState({
     latitude: 48.8869061,
     longitude: 18.0390322,
     zoom: 13,
   });
-
   const handleClick = (id) => {
     props.handleVenue(props.venues[id]);
   };
-
   const [vybranyObjekt, setVybranyObjekt] = useState(null);
-
   return (
     <>
       <ReactMapGL
@@ -50,29 +46,25 @@ const Mapa = (props) => {
             <Marker
               latitude={item.latitude}
               longitude={item.longitude}
-              offsetLeft={-25}
-              offsetTop={-50}
+              offsetLeft={props.selectedVenue ? -50 : -25}
+              offsetTop={props.selectedVenue ? -100 : -50}
             >
               <img
                 src={item.ikona}
-                width={50}
-                height={50}
+                width={props.selectedVenue ? 100 : 50}
+                height={props.selectedVenue ? 100 : 50}
                 alt={item.nazev}
                 onClick={() => handleClick(i)}
               />
             </Marker>
-
-            
           </React.Fragment>
         ))}
       </ReactMapGL>
     </>
   );
 };
-
 export default Mapa;
-
-/* 
+/*
 //LOCATE
 <GeolocateControl
           style={{
@@ -82,7 +74,6 @@ export default Mapa;
           positionOptions={{ enableHighAccuracy: true }}
           trackUserLocation={false}
         />
-
 //POPUP
 {item.id === vybranyObjekt ? (
               <Popup
