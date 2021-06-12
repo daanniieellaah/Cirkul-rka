@@ -4,10 +4,10 @@
 }
 html {
   font-family: 'Montserrat', sans-serif;
-  height: 100%;
-  margin: 0;
-
+  height:100%;
+  scroll-behavior: smooth;
 }
+
 body {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,11 +16,11 @@ body {
   background-size: cover;
   background-image: url('img/mapa.png');
   margin: 0px;
-  height: 100%;
+  height:100%;
 }
 
-#App{
-  height: 100%;
+#app {
+  height:100%;
 }
 
 /* uvodna stranka */
@@ -219,7 +219,7 @@ border: 3px solid #b4b7a7;
 
 .main {
   margin-top: 115px;
-  height: 100%;
+  height:100%;
 }
 
 
@@ -248,6 +248,8 @@ border: 3px solid #b4b7a7;
     max-width: 30%;
     backdrop-filter: blur(8px);
     overflow:scroll;
+    height:100%;
+    scroll-behavior: smooth;
   }
 
   .venue-list :hover {
@@ -263,6 +265,7 @@ border: 3px solid #b4b7a7;
 
   .main-container{
     display: flex;
+    height:100%;
   }
 
   .container--detail{
