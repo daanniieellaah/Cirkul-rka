@@ -1,4 +1,5 @@
 import React from 'react';
+import CirkulacniModelSK from '/src/img/CirkulacniModelSK.png'
 import CirkulacniModely from '/src/img/CirkulacniModely.png'
 
 
@@ -7,10 +8,12 @@ const CirkularniEkonomika = () => {
     <div className="container--cirkulareko">
       <h2>Cirkulárna ekonomika</h2>
       <div>
-      <img src= {CirkulacniModely} alt="cirkulární a lineární ekonomika" />
+      <img src= {CirkulacniModelSK} alt="cirkulární a lineární ekonomika" />
         <p>
-        Zdroj: <i> Incien.org</i>
+        Zdroj: <i> incien.sk (Od odpadu k zdrojom)</i>
         </p>
+        <img src= {CirkulacniModely} alt="cirkulární a lineární ekonomika" />
+        <p>Zdroj: <i> incien.org </i></p>
       </div>
       <div className = "cirkulareko_text">
 
