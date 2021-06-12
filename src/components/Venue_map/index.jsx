@@ -39,7 +39,7 @@ const Mapa = (props) => {
         {...viewport}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
         width="70%"
-        height="700px"
+        height="580px"
       >
         {props.venues.map((item, i) => (
           <React.Fragment key={item.id}>
