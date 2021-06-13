@@ -1,29 +1,31 @@
 import React from 'react';
 import onas from '/src/img/onas.svg';
 
-
 const Onas = () => {
   return (
     <div className="container--about">
       <h2>O nás</h2>
       <div className="container--about-top">
-
-        <img src={onas}/>
+        <img src={onas} />
 
         <div className="paragraph">
           <p>
-            Projekt <b>Cirkulárka</b> podporuje podporuje současný trend přechodu od lineární k cirkulární ekonomice. V rámci této problematiky jsme se věnovaly jednomu konrétnímu místu - městu Trenčín. 
-            
-            Mapa zobrazuje přehled míst, která podporují současný tred udržitelosti - například bezobalové odchody, second-handy, knižní budky, sběrná místa či knižní budky. 
-            
-            Jakožto možná budoucí rozšíření plánujeme sekci "Události" zaměřenou na informace o organizování
-            různých akcí či aktivit ve městě a jeho blízkém okolí a dále také propojení této sekce s kalendářem.
-            </p>
-            <br/>
-            <p>
-              Projekt <b>Cirkulárka</b> vznikl v rámci
-              <i> Czechitas Datové akademie: Web</i>.
-            </p>
+            Projekt <b>Cirkulárka</b> podporuje  súčasný trend
+            prechodu od lineárnej k cirkulární ekonomike. 
+            V rámci tejto
+            problematiky jsme se venovali jednému konrétnímu miestu - mestu
+            Trenčín. Mapa zobrazuje prehľad miest, ktoré podporujú súčasný tred
+            udržitelosti - napríklad bezobalové odchody, second-handy, knižné
+            búdky, zberné miesta či rôzne servisy a opravovne.
+          </p>
+          <p>
+          Ako možné budúce rozšírenie plánujeme sekcii "Udalosti" zameranú na informácie o organizovaní rôznych akcií či aktivít v meste a jeho blízkom okolí a ďalej tiež prepojenie tejto sekcie s kalendárom.
+          </p>
+          <br />
+          <p>
+            Projekt <b>Cirkulárka</b> vznikl v rámci
+            <i> Czechitas Datové akademie: Web</i>.
+          </p>
         </div>
       </div>
     </div>
