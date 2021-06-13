@@ -30,11 +30,11 @@ const CirkularniEkonomika = () => {
           </div>
 
           <div className = "cirkulareko--text">
-            <p>Trend cirkulární ekonomiky reaguje na současný model lineární ekonomiky a zároveň nabízí alternativu v podobě ekonomicky i ekologicky výhodného řešení, kdy i použité či staré věci mohou stále přinášet užitek.
+            <p>Ekonomický model súčasnej spoločnosti je zatiaľ predovšetkým lineárny. Ťažíme prírodné zdroje, odnášame ich na opačný koniec sveta, kde sa z nich vyrábajú výrobky. Tie sú distribuované do ďalších kútov sveta, kde ich spotrebitelia kú­pia, použijú a vyhodia. Tak vzniká odpad a su­roviny vo forme produktov končia na skládkach, v spaľovniach či pohodené vo voľnej prírode.
 
-            Udržitelnost a efektivita procesu recyklace se promítá  téměř do všech oblastí lidkého života a činností, přičemž cílem je zvyšovat kvalitu životního prostředí a lidského života pomocí zvyšování efektivity produkce.
+            Podstatou zisku tohto systému je vysoká spot­reba neobnoviteľných surovín, čo logicky nemôže fungovať dlhodobo. Keď k tomu pridáme iné ne­gatívne faktory, ako vykorisťovanie pracovníkov z rozvojových krajín, populačnú explóziu, rýchlo rastúci konzum a devastujúci vplyv človeka na ži­votné prostredie, terajší systém môžeme opráv­nene považovať za neudržateľný. A to ekonomic­ky, environmentálne a aj sociálne.
 
-            Nezbytností je schopnost uvažovat v dlouhodobém horizontu a také schopnost dávání věcí do souvislostí. Společnost by se tedy v duchu myšlenky oběhového hospodářství měla rozvíjet  nejen s ohledem na ekonomickou stránku, ale také brát ohled na na kvalitu života a environmentální ochranu.
+            Protikladom lineárneho modelu je cirkulárna ekonomika - obehové hospodárstvo, ktorá je od roku 2015 kľúčovou politickou témou v EÚ.
             </p>
             
             <div className = "odkaz1">

@@ -161,6 +161,7 @@ margin-right: 45px;
 
 .container--cirkulareko-img img {
   width: 50%;
+  height: 45%;
   margin-right: 20px;
 
 }
@@ -332,7 +333,7 @@ border: 3px solid #b4b7a7;
     display: flex;
     flex-direction: column;
     justify-content: top;
-    padding: 20px;
+    padding: 25px 20px;
   }
 
   .container--detail-top{
@@ -344,6 +345,8 @@ border: 3px solid #b4b7a7;
     width: 30%;
     align-self: flex-end;
     order: -1;
+    margin-right: 40px;
+    margin-bottom: 15px;
   }
 
   .container--detail-top img {
@@ -354,7 +357,7 @@ border: 3px solid #b4b7a7;
   }
 
 .container--detail-middle {
-  padding: 10px 0px;
+  margin: 25px 40px;
 }
 
   .container-detail-btns {
