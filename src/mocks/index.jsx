@@ -18,6 +18,7 @@ import SecondHand from "/src/img/SecondHand.png";
 import ServisOpravna from "/src/img/ServisOpravna.png";
 
 
+
 const venues = [
   {
     id: 1,

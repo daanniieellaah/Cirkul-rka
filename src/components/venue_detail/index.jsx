@@ -25,15 +25,15 @@ const VenueDetail = (props) => {
 
       <div className="container-detail-btns">
         { data.web &&
-          <Link to={data.web}>
+          <a href={data.web}>
             <button className="btn1">Web</button>
-          </Link>
+          </a>
         }
 
         { data.trasa &&
-          <Link to={data.trasa}>
+          <a href={data.trasa}>
             <button className="btn2">Trasa</button>
-          </Link>
+          </a>
         }
       </div>
     </div>
