@@ -74,8 +74,8 @@ a {
   width: 100%;
   margin-top: 15%;
   margin-bottom: 5%;
-  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  backdrop-filter: blur(8px);
+  /*background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  backdrop-filter: blur(8px);*/
 }
 
 footer {
@@ -377,7 +377,7 @@ button:active {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-}
+ }
 
 .container-detail-btns a {
   width: 100%;
@@ -386,6 +386,7 @@ button:active {
 .btn1 {
   align-self: flex-start;
   width: 100%;
+
 }
 
 .btn2 {
