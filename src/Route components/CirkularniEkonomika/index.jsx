@@ -1,5 +1,5 @@
 import React from 'react';
-import CirkulacniModelSK from '/src/img/CirkulacniModelSK.png';
+//import CirkulacniModelSK from '/src/img/CirkulacniModelSK.png';
 import CirkulacniModely from '/src/img/CirkulacniModely.png';
 import Odkaz from '/src/img/Odkaz.png';
 
