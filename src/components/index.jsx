@@ -4,7 +4,7 @@ import Address from './address';
 import Filtr from "./Filtr";
 import ItemCategories from "./ItemCategories";
 import Mapa from "./Venue_map";
-import Container from "./Container";
+import Container from "./container";
 import Footer from "./Footer";
 import Menu from "./Menu"
 
